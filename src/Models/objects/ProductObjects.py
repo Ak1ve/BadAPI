@@ -5,11 +5,19 @@ from dataclasses import dataclass
 
 from src.Models.typed_objects import Product as pro
 from src.Models.abc.Fetchable import Fetchable
-from src.Models.utils import text_from_dict_str
+from src.Models.objects.utils import text_from_dict_str
+
+
+__all__ = ("Product",)
 
 
 @dataclass(unsafe_hash=True)
 class Product(Fetchable[pro.Product]):
+    """
+    Any product that BadDragon sells (toys, shirts, plushies, etc.)
+
+    A list is Obtained from /api/products
+    """
     sku: str
     name: str
     description: str

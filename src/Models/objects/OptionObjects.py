@@ -6,11 +6,19 @@ from typing import Optional
 
 from src.Models.typed_objects import ProductOption as opt
 from src.Models.abc.Fetchable import Fetchable
-from src.Models.utils import convert_list
+from src.Models.objects.utils import convert_list
+
+__all__ = ("Options", "OptionSet", "OptionValue", "OptionExceptionValue", "OptionColorTheme",
+           "OptionException", "OptionDimensions")
 
 
 @dataclass(unsafe_hash=True)
 class OptionColorTheme(Fetchable[opt.OptionColorTheme]):
+    """
+    A color theme option for a particular toy.
+
+    Obtained from :class:Options
+    """
     id: int
     name: str
     description: str
@@ -102,6 +110,11 @@ measurement_names: list[str] = ["circumference_testicles",
 
 @dataclass(unsafe_hash=True)
 class OptionDimensions(Fetchable[opt.OptionDimensions]):
+    """
+    Dimensions Representing a particular toy
+
+    Obtained from :class:Options
+    """
     circumference_testicles: Optional[Measurement]
     diameter_testicles: Optional[Measurement]
     diameter_widest_part: Optional[Measurement]
@@ -190,6 +203,9 @@ class OptionDimensions(Fetchable[opt.OptionDimensions]):
 
 @dataclass(unsafe_hash=True)
 class Measurement(Fetchable[opt.Measurement]):
+    """
+    Measurement values for a particular :class:OptionDimensions
+    """
     measurement_type: str
     name: str
     size: str
@@ -207,6 +223,9 @@ class Measurement(Fetchable[opt.Measurement]):
 
 @dataclass(unsafe_hash=True)
 class OptionExceptionValue(Fetchable[opt.OptionExceptionValue]):
+    """
+    Values for :class:OptionException
+    """
     id: int
     option_type: str
     value: str
@@ -226,6 +245,12 @@ class OptionExceptionValue(Fetchable[opt.OptionExceptionValue]):
 
 @dataclass(unsafe_hash=True)
 class OptionException(Fetchable[opt.OptionException]):
+    """
+    Exceptions for particular selections of options
+    that are not possible
+
+    Obtained via :class:Options
+    """
     id: int
     product_id: Optional[int]
     is_global: bool
@@ -247,6 +272,9 @@ class OptionException(Fetchable[opt.OptionException]):
 
 @dataclass(unsafe_hash=True)
 class OptionValue(Fetchable[opt.OptionValue]):
+    """
+    Values for :class:OptionSet
+    """
     id: int
     option_value_id: int
     value: str
@@ -266,6 +294,11 @@ class OptionValue(Fetchable[opt.OptionValue]):
 
 @dataclass(unsafe_hash=True)
 class OptionSet(Fetchable[opt.Options]):
+    """
+    Options associated for applying to toys
+
+    Obtained from :class:Options
+    """
     base_color_type: list[OptionValue]
     cumtube: list[OptionValue]
     suction_cup: list[OptionValue]
@@ -285,6 +318,11 @@ class OptionSet(Fetchable[opt.Options]):
 
 @dataclass(unsafe_hash=True)
 class Options(Fetchable[opt.ProductOptions]):
+    """
+    Options representing a particular inventory toy
+
+    Obtained via /api/products/{product}/options
+    """
     options: OptionSet
     color_themes: list[OptionColorTheme]
     dimensions: OptionDimensions

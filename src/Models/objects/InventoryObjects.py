@@ -6,11 +6,17 @@ from typing import Optional, ClassVar
 
 from src.Models.typed_objects import Inventory as inv
 from src.Models.abc.Fetchable import Fetchable
-from src.Models.utils import convert_list
+from src.Models.objects.utils import convert_list
+
+
+__all__ = ("InventoryImage", "InventoryToy", "InventoryPage", "InventoryColorTheme")
 
 
 @dataclass(unsafe_hash=True)
 class InventoryImage(Fetchable[inv.InventoryImage]):
+    """
+    Image associated with a :class:InventoryToy object
+    """
     id: int
     toy_id: int
     created: datetime
@@ -38,6 +44,9 @@ class InventoryImage(Fetchable[inv.InventoryImage]):
 
 @dataclass(unsafe_hash=True)
 class InventoryColorTheme(Fetchable[inv.InventoryColorTheme]):
+    """
+    Description, id, and name of a Color theme of a :class:InventoryToy
+    """
     id: int
     name: str
     description: str
@@ -57,6 +66,10 @@ class InventoryColorTheme(Fetchable[inv.InventoryColorTheme]):
 
 @dataclass(unsafe_hash=True)
 class InventoryToy(Fetchable[inv.InventoryToy]):
+    """
+    A Toy that is featured in the drop
+    Obtained from :class:InventoryPage
+    """
     size_map: ClassVar[dict[int, str]] = {270: 'paw-twopack', 6: 'onesize', 120: 'macebundle', 119: 'morale',
                                           269: 'paw-single', 1: 'small', 118: 'discipline', 2: 'medium',
                                           3: 'extralarge', 10: 'mini', 287: '2xlarge', 8: 'large'}
@@ -104,6 +117,11 @@ class InventoryToy(Fetchable[inv.InventoryToy]):
 
 @dataclass(unsafe_hash=True)
 class InventoryPage(Fetchable[inv.InventoryPage]):
+    """
+    An object that represents the current inventory
+
+    Obtained via /api/inventory-toys?type[]=ready_made&price[min]=0&price[max]=300&sort[field]=price&&sort[direction]=asc&page=1&limit=60
+    """
     limit: int
     page: int
     toys: list[InventoryToy]
