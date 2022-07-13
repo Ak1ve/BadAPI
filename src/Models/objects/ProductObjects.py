@@ -3,7 +3,7 @@ from __future__ import annotations
 from datetime import datetime
 from dataclasses import dataclass
 
-from src.Models.typed_objs import Product as pro
+from src.Models.typed_objects import Product as pro
 from src.Models.abc.Fetchable import Fetchable
 from src.Models.utils import text_from_dict_str
 

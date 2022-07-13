@@ -4,7 +4,7 @@ from datetime import datetime
 from dataclasses import dataclass
 from typing import Optional, ClassVar
 
-from src.Models.typed_objs import Inventory as inv
+from src.Models.typed_objects import Inventory as inv
 from src.Models.abc.Fetchable import Fetchable
 from src.Models.utils import convert_list
 

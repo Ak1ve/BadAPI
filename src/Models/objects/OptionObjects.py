@@ -4,7 +4,7 @@ from datetime import datetime
 from dataclasses import dataclass
 from typing import Optional
 
-from src.Models.typed_objs import ProductOption as opt
+from src.Models.typed_objects import ProductOption as opt
 from src.Models.abc.Fetchable import Fetchable
 from src.Models.utils import convert_list
 
