@@ -1,0 +1,3066 @@
+{
+    "options": {
+        "basecolortype": [
+            {
+                "id": 2297,
+                "optionValueId": 35,
+                "value": "default",
+                "priceModifier": "0.00",
+                "weightModifier": "0.00"
+            },
+            {
+                "id": 2335,
+                "optionValueId": 37,
+                "value": "split",
+                "priceModifier": "20.00",
+                "weightModifier": "0.00"
+            }
+        ],
+        "cumtube": [
+            {
+                "id": 2321,
+                "optionValueId": 18,
+                "value": "0",
+                "priceModifier": "0.00",
+                "weightModifier": "0.00"
+            },
+            {
+                "id": 2322,
+                "optionValueId": 13,
+                "value": "1",
+                "priceModifier": "20.00",
+                "weightModifier": "0.84"
+            }
+        ],
+        "suctionCup": [
+            {
+                "id": 2323,
+                "optionValueId": 22,
+                "value": "0",
+                "priceModifier": "0.00",
+                "weightModifier": "0.00"
+            },
+            {
+                "id": 2324,
+                "optionValueId": 23,
+                "value": "1",
+                "priceModifier": "10.00",
+                "weightModifier": "0.00"
+            }
+        ],
+        "bodycolortype": [
+            {
+                "id": 2298,
+                "optionValueId": 38,
+                "value": "solid",
+                "priceModifier": "0.00",
+                "weightModifier": "0.00"
+            },
+            {
+                "id": 2299,
+                "optionValueId": 39,
+                "value": "marble",
+                "priceModifier": "20.00",
+                "weightModifier": "0.00"
+            },
+            {
+                "id": 2300,
+                "optionValueId": 36,
+                "value": "fade",
+                "priceModifier": "40.00",
+                "weightModifier": "0.00"
+            }
+        ],
+        "firmness": [
+            {
+                "id": 2318,
+                "optionValueId": 7,
+                "value": "3",
+                "priceModifier": "0.00",
+                "weightModifier": "0.00"
+            },
+            {
+                "id": 2319,
+                "optionValueId": 4,
+                "value": "5",
+                "priceModifier": "0.00",
+                "weightModifier": "0.00"
+            },
+            {
+                "id": 2320,
+                "optionValueId": 9,
+                "value": "8",
+                "priceModifier": "0.00",
+                "weightModifier": "0.00"
+            },
+            {
+                "id": 2336,
+                "optionValueId": 12,
+                "value": "3/8",
+                "priceModifier": "20.00",
+                "weightModifier": "0.00"
+            },
+            {
+                "id": 2337,
+                "optionValueId": 11,
+                "value": "5/8",
+                "priceModifier": "20.00",
+                "weightModifier": "0.00"
+            }
+        ],
+        "size": [
+            {
+                "id": 2292,
+                "optionValueId": 10,
+                "value": "mini",
+                "priceModifier": "0.00",
+                "weightModifier": null
+            },
+            {
+                "id": 2293,
+                "optionValueId": 1,
+                "value": "small",
+                "priceModifier": "20.00",
+                "weightModifier": "0.63"
+            },
+            {
+                "id": 2294,
+                "optionValueId": 2,
+                "value": "medium",
+                "priceModifier": "50.00",
+                "weightModifier": "2.11"
+            },
+            {
+                "id": 2295,
+                "optionValueId": 8,
+                "value": "large",
+                "priceModifier": "80.00",
+                "weightModifier": "4.34"
+            },
+            {
+                "id": 2296,
+                "optionValueId": 3,
+                "value": "extralarge",
+                "priceModifier": "135.00",
+                "weightModifier": "9.56"
+            }
+        ]
+    },
+    "colorThemes": [
+        {
+            "id": 1117,
+            "name": "Ky'el's Signature",
+            "description": "A pearlescent tip of Purple essence that fades into a dark silvered Iris. Marvel at its base of UV Purple, Platinum, and Charcoal Black",
+            "bodyOptionId": 36,
+            "baseOptionId": 40,
+            "priceModifier": "20.00",
+            "singleProduct": true,
+            "specification": "{\"body\":{\"type\":\"fade-custom\",\"color1\":\"FFFFFF\",\"colorStops\":[{\"position\":0.647,\"hexCode\":\"E9DCE5\"},{\"position\":0.438,\"hexCode\":\"e6d4e1\"},{\"position\":0.215,\"hexCode\":\"c8a9ca\"}]},\"base\":{\"type\":\"marble-custom\",\"colorStops\":[{\"position\":0.197,\"hexCode\":\"464444\"},{\"position\":0.671,\"hexCode\":\"464444\"},{\"position\":0.862,\"hexCode\":\"464444\"},{\"position\":0.096,\"hexCode\":\"7500bb\"},{\"position\":0.5,\"hexCode\":\"7500bb\"},{\"position\":0.9,\"hexCode\":\"7500bb\"},{\"position\":0,\"hexCode\":\"eee2d1\"},{\"position\":0.4,\"hexCode\":\"eee2d1\"},{\"position\":1,\"hexCode\":\"eee2d1\"}]}}",
+            "isSurpriseMe": false,
+            "globalPreviewOverrideImage": null,
+            "swatchImageId": 12273,
+            "sort_order": 8350,
+            "startDate": "2022-06-17T07:00:00.000Z",
+            "endDate": null,
+            "themePreviewOverrideImage": {
+                "id": 12422,
+                "url": "https://da6npmvqm28oa.cloudfront.net/82cb6cc2-1fce-4070-bfec-cb4f7a039a7d"
+            },
+            "themeCustomTextureMap": null,
+            "themeCustomModel": null,
+            "themeCustomNormalMap": null,
+            "themeCustomPreviewImage": null,
+            "bodyOptionValue": {
+                "id": 36,
+                "optionType": "bodycolortype",
+                "value": "fade",
+                "defaultPriceModifier": "40.00",
+                "sortOrder": 30,
+                "displayName": null,
+                "defaultWeightModifier": "0.00"
+            },
+            "baseOptionValue": {
+                "id": 40,
+                "optionType": "basecolortype",
+                "value": "marble",
+                "defaultPriceModifier": "0.00",
+                "sortOrder": 0,
+                "displayName": null,
+                "defaultWeightModifier": "0.00"
+            },
+            "swatchImage": {
+                "id": 12273,
+                "url": "https://da6npmvqm28oa.cloudfront.net/2902e4e2-049b-44a6-9d54-71cbdb1985fb"
+            }
+        },
+        {
+            "id": 1118,
+            "name": "Ky'el's Natural",
+            "description": "A playful Pink shaft fading to a washed Red with hints of Gold, on top of a purrfect base of divine Gold combined with a devilish Black",
+            "bodyOptionId": 36,
+            "baseOptionId": 40,
+            "priceModifier": "0.00",
+            "singleProduct": true,
+            "specification": "{\"body\":{\"type\":\"fade\",\"color1\":\"FB548A\",\"colorStops\":[],\"color2\":\"E38882\",\"color1Metallic\":{\"hue\":\"FFED66\",\"intensity\":0.15,\"sparkleScarcity\":4.75},\"color2Metallic\":{\"hue\":\"FFED66\",\"intensity\":0.35,\"sparkleScarcity\":4.5}},\"base\":{\"type\":\"marble-custom\",\"color1Metallic\":{\"hue\":\"D4Af37\",\"intensity\":1.33,\"sparkleScarcity\":4.25},\"color1\":\"161616\",\"color2\":\"D4Af37\",\"colorStops\":[{\"position\":0.159,\"hexCode\":\"D4Af37\"},{\"position\":0,\"hexCode\":\"190000\"},{\"position\":0.1,\"hexCode\":\"190000\"},{\"position\":0.223,\"hexCode\":\"D4Af37\"},{\"position\":0.277,\"hexCode\":\"D4Af37\"},{\"position\":0.373,\"hexCode\":\"190000\"},{\"position\":0.446,\"hexCode\":\"190000\"},{\"position\":0.669,\"hexCode\":\"D4Af37\"},{\"position\":0.627,\"hexCode\":\"D4Af37\"},{\"position\":0.904,\"hexCode\":\"161616\"},{\"position\":0.846,\"hexCode\":\"190000\"},{\"position\":0.577,\"hexCode\":\"D4Af37\"},{\"position\":1,\"hexCode\":\"190000\"},{\"position\":0.062,\"hexCode\":\"190000\"},{\"position\":0.5,\"hexCode\":\"190000\"}]}}",
+            "isSurpriseMe": false,
+            "globalPreviewOverrideImage": null,
+            "swatchImageId": 12297,
+            "sort_order": 8360,
+            "startDate": "2022-06-17T07:00:00.000Z",
+            "endDate": null,
+            "themePreviewOverrideImage": {
+                "id": 12423,
+                "url": "https://da6npmvqm28oa.cloudfront.net/f5aa1e1c-0e3e-4c1b-bee4-a332bf96bb0e"
+            },
+            "themeCustomTextureMap": null,
+            "themeCustomModel": null,
+            "themeCustomNormalMap": null,
+            "themeCustomPreviewImage": null,
+            "bodyOptionValue": {
+                "id": 36,
+                "optionType": "bodycolortype",
+                "value": "fade",
+                "defaultPriceModifier": "40.00",
+                "sortOrder": 30,
+                "displayName": null,
+                "defaultWeightModifier": "0.00"
+            },
+            "baseOptionValue": {
+                "id": 40,
+                "optionType": "basecolortype",
+                "value": "marble",
+                "defaultPriceModifier": "0.00",
+                "sortOrder": 0,
+                "displayName": null,
+                "defaultWeightModifier": "0.00"
+            },
+            "swatchImage": {
+                "id": 12297,
+                "url": "https://da6npmvqm28oa.cloudfront.net/7dcf5953-a016-4ef5-98f3-697cc82a022e"
+            }
+        },
+        {
+            "id": 323,
+            "name": "Black Gold",
+            "description": "Onyx with Gold Dazzle.",
+            "bodyOptionId": 38,
+            "baseOptionId": 35,
+            "priceModifier": "0.00",
+            "singleProduct": false,
+            "specification": "{\"body\":{\"type\":\"solid\",\"color1\":\"010101\",\"color2\":\"FFFFFF\",\"colorStops\":[],\"color1Metallic\":{\"hue\":\"FFd700\",\"intensity\":1.18,\"sparkleScarcity\":8.5}},\"base\":null}",
+            "isSurpriseMe": false,
+            "globalPreviewOverrideImage": null,
+            "swatchImageId": 4338,
+            "sort_order": 0,
+            "startDate": "2020-09-03T23:19:00.000Z",
+            "endDate": null,
+            "themePreviewOverrideImage": null,
+            "themeCustomTextureMap": null,
+            "themeCustomModel": null,
+            "themeCustomNormalMap": null,
+            "themeCustomPreviewImage": null,
+            "bodyOptionValue": {
+                "id": 38,
+                "optionType": "bodycolortype",
+                "value": "solid",
+                "defaultPriceModifier": "0.00",
+                "sortOrder": 10,
+                "displayName": null,
+                "defaultWeightModifier": "0.00"
+            },
+            "baseOptionValue": {
+                "id": 35,
+                "optionType": "basecolortype",
+                "value": "default",
+                "defaultPriceModifier": "0.00",
+                "sortOrder": 0,
+                "displayName": null,
+                "defaultWeightModifier": "0.00"
+            },
+            "swatchImage": {
+                "id": 4338,
+                "url": "https://da6npmvqm28oa.cloudfront.net/8598e459-6813-46cf-81e8-1e89607c6494"
+            }
+        },
+        {
+            "id": 324,
+            "name": "Galaxy Black",
+            "description": "Onyx with Silver Dazzle.",
+            "bodyOptionId": 38,
+            "baseOptionId": 35,
+            "priceModifier": "0.00",
+            "singleProduct": false,
+            "specification": "{\"body\":{\"type\":\"solid\",\"color1\":\"020202\",\"color2\":\"FFFFFF\",\"colorStops\":[],\"color1Metallic\":{\"hue\":\"c0c0c0\",\"intensity\":1.08,\"sparkleScarcity\":6.25}},\"base\":null}",
+            "isSurpriseMe": false,
+            "globalPreviewOverrideImage": null,
+            "swatchImageId": 4337,
+            "sort_order": 10,
+            "startDate": "2020-09-03T23:19:00.000Z",
+            "endDate": null,
+            "themePreviewOverrideImage": null,
+            "themeCustomTextureMap": null,
+            "themeCustomModel": null,
+            "themeCustomNormalMap": null,
+            "themeCustomPreviewImage": null,
+            "bodyOptionValue": {
+                "id": 38,
+                "optionType": "bodycolortype",
+                "value": "solid",
+                "defaultPriceModifier": "0.00",
+                "sortOrder": 10,
+                "displayName": null,
+                "defaultWeightModifier": "0.00"
+            },
+            "baseOptionValue": {
+                "id": 35,
+                "optionType": "basecolortype",
+                "value": "default",
+                "defaultPriceModifier": "0.00",
+                "sortOrder": 0,
+                "displayName": null,
+                "defaultWeightModifier": "0.00"
+            },
+            "swatchImage": {
+                "id": 4337,
+                "url": "https://da6npmvqm28oa.cloudfront.net/b55488f8-b342-408a-b920-3def6dcd9768"
+            }
+        },
+        {
+            "id": 325,
+            "name": "Night Sky",
+            "description": "Onyx with Metallic Blue.",
+            "bodyOptionId": 38,
+            "baseOptionId": 35,
+            "priceModifier": "0.00",
+            "singleProduct": false,
+            "specification": "{\"body\":{\"type\":\"solid\",\"color1\":\"000010\",\"color2\":\"FFFFFF\",\"colorStops\":[],\"color1Metallic\":{\"hue\":\"0000ff\",\"intensity\":1,\"sparkleScarcity\":6.5}},\"base\":null}",
+            "isSurpriseMe": false,
+            "globalPreviewOverrideImage": null,
+            "swatchImageId": 4336,
+            "sort_order": 20,
+            "startDate": "2020-09-03T23:19:16.113Z",
+            "endDate": null,
+            "themePreviewOverrideImage": null,
+            "themeCustomTextureMap": null,
+            "themeCustomModel": null,
+            "themeCustomNormalMap": null,
+            "themeCustomPreviewImage": null,
+            "bodyOptionValue": {
+                "id": 38,
+                "optionType": "bodycolortype",
+                "value": "solid",
+                "defaultPriceModifier": "0.00",
+                "sortOrder": 10,
+                "displayName": null,
+                "defaultWeightModifier": "0.00"
+            },
+            "baseOptionValue": {
+                "id": 35,
+                "optionType": "basecolortype",
+                "value": "default",
+                "defaultPriceModifier": "0.00",
+                "sortOrder": 0,
+                "displayName": null,
+                "defaultWeightModifier": "0.00"
+            },
+            "swatchImage": {
+                "id": 4336,
+                "url": "https://da6npmvqm28oa.cloudfront.net/7b844b17-0da8-4190-8a15-a171a11e3890"
+            }
+        },
+        {
+            "id": 327,
+            "name": "BD Silver",
+            "description": "A Metallic Silver.",
+            "bodyOptionId": 38,
+            "baseOptionId": 35,
+            "priceModifier": "0.00",
+            "singleProduct": false,
+            "specification": "{\"body\":{\"type\":\"solid\",\"color1\":\"c0c0c0\",\"color2\":\"FFFFFF\",\"colorStops\":[],\"color1Metallic\":{\"hue\":\"c0c0c0\",\"intensity\":0.7,\"sparkleScarcity\":6.5}},\"base\":null}",
+            "isSurpriseMe": false,
+            "globalPreviewOverrideImage": null,
+            "swatchImageId": 4334,
+            "sort_order": 50,
+            "startDate": "2020-09-03T23:19:00.000Z",
+            "endDate": null,
+            "themePreviewOverrideImage": null,
+            "themeCustomTextureMap": null,
+            "themeCustomModel": null,
+            "themeCustomNormalMap": null,
+            "themeCustomPreviewImage": null,
+            "bodyOptionValue": {
+                "id": 38,
+                "optionType": "bodycolortype",
+                "value": "solid",
+                "defaultPriceModifier": "0.00",
+                "sortOrder": 10,
+                "displayName": null,
+                "defaultWeightModifier": "0.00"
+            },
+            "baseOptionValue": {
+                "id": 35,
+                "optionType": "basecolortype",
+                "value": "default",
+                "defaultPriceModifier": "0.00",
+                "sortOrder": 0,
+                "displayName": null,
+                "defaultWeightModifier": "0.00"
+            },
+            "swatchImage": {
+                "id": 4334,
+                "url": "https://da6npmvqm28oa.cloudfront.net/e5885017-dd17-4b72-b153-1ddff439fa5d"
+            }
+        },
+        {
+            "id": 328,
+            "name": "Platinum Ore",
+            "description": "A dark Metallic Silver.",
+            "bodyOptionId": 38,
+            "baseOptionId": 35,
+            "priceModifier": "0.00",
+            "singleProduct": false,
+            "specification": "{\"body\":{\"type\":\"solid\",\"color1\":\"6c6868\",\"color2\":\"FFFFFF\",\"colorStops\":[],\"color1Metallic\":{\"hue\":\"6c6868\",\"intensity\":0.72,\"sparkleScarcity\":6.75}},\"base\":null}",
+            "isSurpriseMe": false,
+            "globalPreviewOverrideImage": null,
+            "swatchImageId": 4320,
+            "sort_order": 30,
+            "startDate": "2020-09-03T23:19:16.113Z",
+            "endDate": null,
+            "themePreviewOverrideImage": null,
+            "themeCustomTextureMap": null,
+            "themeCustomModel": null,
+            "themeCustomNormalMap": null,
+            "themeCustomPreviewImage": null,
+            "bodyOptionValue": {
+                "id": 38,
+                "optionType": "bodycolortype",
+                "value": "solid",
+                "defaultPriceModifier": "0.00",
+                "sortOrder": 10,
+                "displayName": null,
+                "defaultWeightModifier": "0.00"
+            },
+            "baseOptionValue": {
+                "id": 35,
+                "optionType": "basecolortype",
+                "value": "default",
+                "defaultPriceModifier": "0.00",
+                "sortOrder": 0,
+                "displayName": null,
+                "defaultWeightModifier": "0.00"
+            },
+            "swatchImage": {
+                "id": 4320,
+                "url": "https://da6npmvqm28oa.cloudfront.net/9f335384-7df3-4d5d-8abe-165c07dace80"
+            }
+        },
+        {
+            "id": 329,
+            "name": "BD Gold",
+            "description": "A Metallic Gold.",
+            "bodyOptionId": 38,
+            "baseOptionId": 35,
+            "priceModifier": "0.00",
+            "singleProduct": false,
+            "specification": "{\"body\":{\"type\":\"solid\",\"color1\":\"ffd700\",\"color2\":\"FFFFFF\",\"colorStops\":[],\"color1Metallic\":{\"hue\":\"ffd700\",\"intensity\":0.72,\"sparkleScarcity\":8.25}},\"base\":null}",
+            "isSurpriseMe": false,
+            "globalPreviewOverrideImage": null,
+            "swatchImageId": 4327,
+            "sort_order": 40,
+            "startDate": "2020-09-03T23:19:16.113Z",
+            "endDate": null,
+            "themePreviewOverrideImage": null,
+            "themeCustomTextureMap": null,
+            "themeCustomModel": null,
+            "themeCustomNormalMap": null,
+            "themeCustomPreviewImage": null,
+            "bodyOptionValue": {
+                "id": 38,
+                "optionType": "bodycolortype",
+                "value": "solid",
+                "defaultPriceModifier": "0.00",
+                "sortOrder": 10,
+                "displayName": null,
+                "defaultWeightModifier": "0.00"
+            },
+            "baseOptionValue": {
+                "id": 35,
+                "optionType": "basecolortype",
+                "value": "default",
+                "defaultPriceModifier": "0.00",
+                "sortOrder": 0,
+                "displayName": null,
+                "defaultWeightModifier": "0.00"
+            },
+            "swatchImage": {
+                "id": 4327,
+                "url": "https://da6npmvqm28oa.cloudfront.net/098be9c3-4676-4e1a-9dfe-57335da119cb"
+            }
+        },
+        {
+            "id": 334,
+            "name": "3rd Kind",
+            "description": "A marble of a light Metallic Bluish-Purple that glows Purple and a light Metallic Greenish-Purple that glows Blue.",
+            "bodyOptionId": 39,
+            "baseOptionId": 35,
+            "priceModifier": "10.00",
+            "singleProduct": false,
+            "specification": "{\"body\":{\"type\":\"marble\",\"color1\":\"cebff6\",\"color2\":\"c3cdff\",\"colorStops\":[],\"color2Metallic\":{\"hue\":\"0000FF\",\"intensity\":1.04,\"sparkleScarcity\":5.5},\"color1Metallic\":{\"hue\":\"00FF00\",\"intensity\":1.62,\"sparkleScarcity\":0}},\"base\":null}",
+            "isSurpriseMe": false,
+            "globalPreviewOverrideImage": null,
+            "swatchImageId": 4979,
+            "sort_order": 183,
+            "startDate": "2020-09-03T23:19:16.113Z",
+            "endDate": null,
+            "themePreviewOverrideImage": null,
+            "themeCustomTextureMap": null,
+            "themeCustomModel": null,
+            "themeCustomNormalMap": null,
+            "themeCustomPreviewImage": null,
+            "bodyOptionValue": {
+                "id": 39,
+                "optionType": "bodycolortype",
+                "value": "marble",
+                "defaultPriceModifier": "20.00",
+                "sortOrder": 20,
+                "displayName": null,
+                "defaultWeightModifier": "0.00"
+            },
+            "baseOptionValue": {
+                "id": 35,
+                "optionType": "basecolortype",
+                "value": "default",
+                "defaultPriceModifier": "0.00",
+                "sortOrder": 0,
+                "displayName": null,
+                "defaultWeightModifier": "0.00"
+            },
+            "swatchImage": {
+                "id": 4979,
+                "url": "https://da6npmvqm28oa.cloudfront.net/336a8384-e422-412f-82e4-cf7db81c7a25"
+            }
+        },
+        {
+            "id": 335,
+            "name": "4th Kind",
+            "description": "A marble of Pearlescent Cyan that glows Aqua with a Pearlescent light Blue that glows Blue.",
+            "bodyOptionId": 39,
+            "baseOptionId": 35,
+            "priceModifier": "10.00",
+            "singleProduct": false,
+            "specification": "{\"body\":{\"type\":\"marble\",\"color1\":\"31ffff\",\"color2\":\"64ffff\",\"colorStops\":[],\"color2Metallic\":{\"hue\":\"2038b7\",\"intensity\":2,\"sparkleScarcity\":0},\"color1Metallic\":{\"hue\":\"559136\",\"intensity\":2,\"sparkleScarcity\":0}},\"base\":null}",
+            "isSurpriseMe": false,
+            "globalPreviewOverrideImage": null,
+            "swatchImageId": 4940,
+            "sort_order": 184,
+            "startDate": "2020-09-03T23:19:16.113Z",
+            "endDate": null,
+            "themePreviewOverrideImage": null,
+            "themeCustomTextureMap": null,
+            "themeCustomModel": null,
+            "themeCustomNormalMap": null,
+            "themeCustomPreviewImage": null,
+            "bodyOptionValue": {
+                "id": 39,
+                "optionType": "bodycolortype",
+                "value": "marble",
+                "defaultPriceModifier": "20.00",
+                "sortOrder": 20,
+                "displayName": null,
+                "defaultWeightModifier": "0.00"
+            },
+            "baseOptionValue": {
+                "id": 35,
+                "optionType": "basecolortype",
+                "value": "default",
+                "defaultPriceModifier": "0.00",
+                "sortOrder": 0,
+                "displayName": null,
+                "defaultWeightModifier": "0.00"
+            },
+            "swatchImage": {
+                "id": 4940,
+                "url": "https://da6npmvqm28oa.cloudfront.net/a2856517-5a34-4e8d-9f76-2cf2c80c5055"
+            }
+        },
+        {
+            "id": 336,
+            "name": "5th Kind",
+            "description": "A marble of a light Pearlescent  Green that glows Purple, and a dark Pearlescent Green that glows Green.",
+            "bodyOptionId": 39,
+            "baseOptionId": 35,
+            "priceModifier": "10.00",
+            "singleProduct": false,
+            "specification": "{\"body\":{\"type\":\"marble\",\"color1\":\"6ad968\",\"color2\":\"4ea24d\",\"colorStops\":[]},\"base\":null}",
+            "isSurpriseMe": false,
+            "globalPreviewOverrideImage": null,
+            "swatchImageId": 4326,
+            "sort_order": 185,
+            "startDate": "2020-09-03T23:19:16.113Z",
+            "endDate": null,
+            "themePreviewOverrideImage": null,
+            "themeCustomTextureMap": null,
+            "themeCustomModel": null,
+            "themeCustomNormalMap": null,
+            "themeCustomPreviewImage": null,
+            "bodyOptionValue": {
+                "id": 39,
+                "optionType": "bodycolortype",
+                "value": "marble",
+                "defaultPriceModifier": "20.00",
+                "sortOrder": 20,
+                "displayName": null,
+                "defaultWeightModifier": "0.00"
+            },
+            "baseOptionValue": {
+                "id": 35,
+                "optionType": "basecolortype",
+                "value": "default",
+                "defaultPriceModifier": "0.00",
+                "sortOrder": 0,
+                "displayName": null,
+                "defaultWeightModifier": "0.00"
+            },
+            "swatchImage": {
+                "id": 4326,
+                "url": "https://da6npmvqm28oa.cloudfront.net/98afc8bb-4bf4-4e2e-bcad-27219553b269"
+            }
+        },
+        {
+            "id": 337,
+            "name": "2nd Kind",
+            "description": "A marble of dark Metallic Orange that glows Green and a light Metallic Orange that glows Aqua.",
+            "bodyOptionId": 39,
+            "baseOptionId": 35,
+            "priceModifier": "10.00",
+            "singleProduct": false,
+            "specification": "{\"body\":{\"type\":\"marble\",\"color1\":\"D45F2D\",\"color2\":\"f06b32\",\"colorStops\":[]},\"base\":null}",
+            "isSurpriseMe": false,
+            "globalPreviewOverrideImage": null,
+            "swatchImageId": 4550,
+            "sort_order": 182,
+            "startDate": "2020-09-03T23:19:16.113Z",
+            "endDate": null,
+            "themePreviewOverrideImage": null,
+            "themeCustomTextureMap": null,
+            "themeCustomModel": null,
+            "themeCustomNormalMap": null,
+            "themeCustomPreviewImage": null,
+            "bodyOptionValue": {
+                "id": 39,
+                "optionType": "bodycolortype",
+                "value": "marble",
+                "defaultPriceModifier": "20.00",
+                "sortOrder": 20,
+                "displayName": null,
+                "defaultWeightModifier": "0.00"
+            },
+            "baseOptionValue": {
+                "id": 35,
+                "optionType": "basecolortype",
+                "value": "default",
+                "defaultPriceModifier": "0.00",
+                "sortOrder": 0,
+                "displayName": null,
+                "defaultWeightModifier": "0.00"
+            },
+            "swatchImage": {
+                "id": 4550,
+                "url": "https://da6npmvqm28oa.cloudfront.net/5b1a6353-e5d2-4bd8-925b-80e5c58aaf30"
+            }
+        },
+        {
+            "id": 338,
+            "name": "Split Arctic Ice",
+            "description": "An Arctic Ice shaft with a Midnight base.",
+            "bodyOptionId": 38,
+            "baseOptionId": 37,
+            "priceModifier": "10.00",
+            "singleProduct": false,
+            "specification": "{\"body\":{\"type\":\"solid\",\"color1\":\"5fbeff\",\"color2\":\"FFFFFF\",\"colorStops\":[]},\"base\":{\"type\":\"split\",\"color1\":\"150c60\"}}",
+            "isSurpriseMe": false,
+            "globalPreviewOverrideImage": null,
+            "swatchImageId": 4328,
+            "sort_order": 270,
+            "startDate": "2020-09-03T23:19:16.113Z",
+            "endDate": null,
+            "themePreviewOverrideImage": null,
+            "themeCustomTextureMap": null,
+            "themeCustomModel": null,
+            "themeCustomNormalMap": null,
+            "themeCustomPreviewImage": null,
+            "bodyOptionValue": {
+                "id": 38,
+                "optionType": "bodycolortype",
+                "value": "solid",
+                "defaultPriceModifier": "0.00",
+                "sortOrder": 10,
+                "displayName": null,
+                "defaultWeightModifier": "0.00"
+            },
+            "baseOptionValue": {
+                "id": 37,
+                "optionType": "basecolortype",
+                "value": "split",
+                "defaultPriceModifier": "20.00",
+                "sortOrder": 0,
+                "displayName": null,
+                "defaultWeightModifier": "0.00"
+            },
+            "swatchImage": {
+                "id": 4328,
+                "url": "https://da6npmvqm28oa.cloudfront.net/c04c6dbc-ba45-4746-aa03-c6fbb58f0839"
+            }
+        },
+        {
+            "id": 339,
+            "name": "Split Red Stone",
+            "description": "A Maroon shaft with an Onyx base.",
+            "bodyOptionId": 38,
+            "baseOptionId": 37,
+            "priceModifier": "10.00",
+            "singleProduct": false,
+            "specification": "{\"body\":{\"type\":\"solid\",\"color1\":\"9c1c40\",\"color2\":\"FFFFFF\",\"colorStops\":[]},\"base\":{\"type\":\"split\",\"color1\":\"000000\"}}",
+            "isSurpriseMe": false,
+            "globalPreviewOverrideImage": null,
+            "swatchImageId": 4329,
+            "sort_order": 260,
+            "startDate": "2020-09-03T23:19:16.113Z",
+            "endDate": null,
+            "themePreviewOverrideImage": null,
+            "themeCustomTextureMap": null,
+            "themeCustomModel": null,
+            "themeCustomNormalMap": null,
+            "themeCustomPreviewImage": null,
+            "bodyOptionValue": {
+                "id": 38,
+                "optionType": "bodycolortype",
+                "value": "solid",
+                "defaultPriceModifier": "0.00",
+                "sortOrder": 10,
+                "displayName": null,
+                "defaultWeightModifier": "0.00"
+            },
+            "baseOptionValue": {
+                "id": 37,
+                "optionType": "basecolortype",
+                "value": "split",
+                "defaultPriceModifier": "20.00",
+                "sortOrder": 0,
+                "displayName": null,
+                "defaultWeightModifier": "0.00"
+            },
+            "swatchImage": {
+                "id": 4329,
+                "url": "https://da6npmvqm28oa.cloudfront.net/b3760112-62aa-4ebf-b072-cad9d543cc46"
+            }
+        },
+        {
+            "id": 340,
+            "name": "Midnight Aquatic",
+            "description": "A Blue to dark Blue fade.",
+            "bodyOptionId": 36,
+            "baseOptionId": 35,
+            "priceModifier": "20.00",
+            "singleProduct": false,
+            "specification": "{\"body\":{\"type\":\"fade-custom\",\"color1\":\"2038b7\",\"color2\":\"FFFFFF\",\"colorStops\":[{\"position\":0.246,\"hexCode\":\"000824\"},{\"position\":0.5,\"hexCode\":\"00155D\"},{\"position\":0.746,\"hexCode\":\"2038b7\"}]},\"base\":null}",
+            "isSurpriseMe": false,
+            "globalPreviewOverrideImage": null,
+            "swatchImageId": 4330,
+            "sort_order": 320,
+            "startDate": "2020-09-03T23:19:00.000Z",
+            "endDate": null,
+            "themePreviewOverrideImage": null,
+            "themeCustomTextureMap": null,
+            "themeCustomModel": null,
+            "themeCustomNormalMap": null,
+            "themeCustomPreviewImage": null,
+            "bodyOptionValue": {
+                "id": 36,
+                "optionType": "bodycolortype",
+                "value": "fade",
+                "defaultPriceModifier": "40.00",
+                "sortOrder": 30,
+                "displayName": null,
+                "defaultWeightModifier": "0.00"
+            },
+            "baseOptionValue": {
+                "id": 35,
+                "optionType": "basecolortype",
+                "value": "default",
+                "defaultPriceModifier": "0.00",
+                "sortOrder": 0,
+                "displayName": null,
+                "defaultWeightModifier": "0.00"
+            },
+            "swatchImage": {
+                "id": 4330,
+                "url": "https://da6npmvqm28oa.cloudfront.net/f6d732fd-37a9-4186-a308-a2bc809374a8"
+            }
+        },
+        {
+            "id": 341,
+            "name": "Crimson Drake",
+            "description": "A Red to dark Red fade.",
+            "bodyOptionId": 36,
+            "baseOptionId": 35,
+            "priceModifier": "20.00",
+            "singleProduct": false,
+            "specification": "{\"body\":{\"type\":\"fade-custom\",\"color1\":\"FFFFFF\",\"color2\":\"FFFFFF\",\"colorStops\":[{\"position\":0.254,\"hexCode\":\"940000\"},{\"position\":0.5,\"hexCode\":\"CA0000\"},{\"position\":0.746,\"hexCode\":\"ff0000\"}]},\"base\":null}",
+            "isSurpriseMe": false,
+            "globalPreviewOverrideImage": null,
+            "swatchImageId": 4331,
+            "sort_order": 340,
+            "startDate": "2020-09-03T23:19:00.000Z",
+            "endDate": null,
+            "themePreviewOverrideImage": null,
+            "themeCustomTextureMap": null,
+            "themeCustomModel": null,
+            "themeCustomNormalMap": null,
+            "themeCustomPreviewImage": null,
+            "bodyOptionValue": {
+                "id": 36,
+                "optionType": "bodycolortype",
+                "value": "fade",
+                "defaultPriceModifier": "40.00",
+                "sortOrder": 30,
+                "displayName": null,
+                "defaultWeightModifier": "0.00"
+            },
+            "baseOptionValue": {
+                "id": 35,
+                "optionType": "basecolortype",
+                "value": "default",
+                "defaultPriceModifier": "0.00",
+                "sortOrder": 0,
+                "displayName": null,
+                "defaultWeightModifier": "0.00"
+            },
+            "swatchImage": {
+                "id": 4331,
+                "url": "https://da6npmvqm28oa.cloudfront.net/6e9e3fa9-a489-4941-a73a-2240f35c2d0f"
+            }
+        },
+        {
+            "id": 342,
+            "name": "Split Midnight Aquatic",
+            "description": "A Blue to dark Blue faded shaft with a light Purple base.",
+            "bodyOptionId": 36,
+            "baseOptionId": 37,
+            "priceModifier": "25.00",
+            "singleProduct": false,
+            "specification": "{\"body\":{\"type\":\"fade-custom\",\"color1\":\"FFFFFF\",\"color2\":\"FFFFFF\",\"colorStops\":[{\"position\":0.246,\"hexCode\":\"000824\"},{\"position\":0.5,\"hexCode\":\"00155D\"},{\"position\":0.746,\"hexCode\":\"2038b7\"}]},\"base\":{\"type\":\"split\",\"color1\":\"c8afe2\"}}",
+            "isSurpriseMe": false,
+            "globalPreviewOverrideImage": null,
+            "swatchImageId": 4321,
+            "sort_order": 330,
+            "startDate": "2020-09-03T23:19:00.000Z",
+            "endDate": null,
+            "themePreviewOverrideImage": null,
+            "themeCustomTextureMap": null,
+            "themeCustomModel": null,
+            "themeCustomNormalMap": null,
+            "themeCustomPreviewImage": null,
+            "bodyOptionValue": {
+                "id": 36,
+                "optionType": "bodycolortype",
+                "value": "fade",
+                "defaultPriceModifier": "40.00",
+                "sortOrder": 30,
+                "displayName": null,
+                "defaultWeightModifier": "0.00"
+            },
+            "baseOptionValue": {
+                "id": 37,
+                "optionType": "basecolortype",
+                "value": "split",
+                "defaultPriceModifier": "20.00",
+                "sortOrder": 0,
+                "displayName": null,
+                "defaultWeightModifier": "0.00"
+            },
+            "swatchImage": {
+                "id": 4321,
+                "url": "https://da6npmvqm28oa.cloudfront.net/b4a40c5f-4deb-4e42-9d9c-d99dbd9d0c17"
+            }
+        },
+        {
+            "id": 343,
+            "name": "Split Crimson Drake",
+            "description": "A Red to dark Red faded shaft with an Orange base.",
+            "bodyOptionId": 36,
+            "baseOptionId": 37,
+            "priceModifier": "25.00",
+            "singleProduct": false,
+            "specification": "{\"body\":{\"type\":\"fade-custom\",\"color1\":\"FFFFFF\",\"color2\":\"FFFFFF\",\"colorStops\":[{\"position\":0.254,\"hexCode\":\"940000\"},{\"position\":0.5,\"hexCode\":\"CA0000\"},{\"position\":0.754,\"hexCode\":\"ff0000\"}]},\"base\":{\"type\":\"split\",\"color1\":\"ff620d\"}}",
+            "isSurpriseMe": false,
+            "globalPreviewOverrideImage": null,
+            "swatchImageId": 4322,
+            "sort_order": 350,
+            "startDate": "2020-09-03T23:19:00.000Z",
+            "endDate": null,
+            "themePreviewOverrideImage": null,
+            "themeCustomTextureMap": null,
+            "themeCustomModel": null,
+            "themeCustomNormalMap": null,
+            "themeCustomPreviewImage": null,
+            "bodyOptionValue": {
+                "id": 36,
+                "optionType": "bodycolortype",
+                "value": "fade",
+                "defaultPriceModifier": "40.00",
+                "sortOrder": 30,
+                "displayName": null,
+                "defaultWeightModifier": "0.00"
+            },
+            "baseOptionValue": {
+                "id": 37,
+                "optionType": "basecolortype",
+                "value": "split",
+                "defaultPriceModifier": "20.00",
+                "sortOrder": 0,
+                "displayName": null,
+                "defaultWeightModifier": "0.00"
+            },
+            "swatchImage": {
+                "id": 4322,
+                "url": "https://da6npmvqm28oa.cloudfront.net/d1a1033a-4dc7-4623-9da6-d1f1147dc499"
+            }
+        },
+        {
+            "id": 432,
+            "name": "Midnight Forest",
+            "description": "A dark Bluish-Green to a darker Bluish-Green fade.",
+            "bodyOptionId": 36,
+            "baseOptionId": 35,
+            "priceModifier": "20.00",
+            "singleProduct": false,
+            "specification": "{\"body\":{\"type\":\"fade-custom\",\"color1\":\"FFFFFF\",\"color2\":\"FFFFFF\",\"colorStops\":[{\"position\":0.638,\"hexCode\":\"0d5945\"},{\"position\":0.877,\"hexCode\":\"127b5f\"},{\"position\":0.412,\"hexCode\":\"08372a\"}]},\"base\":null}",
+            "isSurpriseMe": false,
+            "globalPreviewOverrideImage": null,
+            "swatchImageId": 5399,
+            "sort_order": 360,
+            "startDate": "2020-09-03T23:19:00.000Z",
+            "endDate": null,
+            "themePreviewOverrideImage": null,
+            "themeCustomTextureMap": null,
+            "themeCustomModel": null,
+            "themeCustomNormalMap": null,
+            "themeCustomPreviewImage": null,
+            "bodyOptionValue": {
+                "id": 36,
+                "optionType": "bodycolortype",
+                "value": "fade",
+                "defaultPriceModifier": "40.00",
+                "sortOrder": 30,
+                "displayName": null,
+                "defaultWeightModifier": "0.00"
+            },
+            "baseOptionValue": {
+                "id": 35,
+                "optionType": "basecolortype",
+                "value": "default",
+                "defaultPriceModifier": "0.00",
+                "sortOrder": 0,
+                "displayName": null,
+                "defaultWeightModifier": "0.00"
+            },
+            "swatchImage": {
+                "id": 5399,
+                "url": "https://da6npmvqm28oa.cloudfront.net/6fd58d17-30cb-4274-a1a5-2ee36ea28afa"
+            }
+        },
+        {
+            "id": 433,
+            "name": "Split Midnight Forest",
+            "description": "A dark Bluish-Green to a darker Bluish-Green faded shaft with a dark Purple base.",
+            "bodyOptionId": 36,
+            "baseOptionId": 37,
+            "priceModifier": "25.00",
+            "singleProduct": false,
+            "specification": "{\"body\":{\"type\":\"fade-custom\",\"color1\":\"FFFFFF\",\"color2\":\"FFFFFF\",\"colorStops\":[{\"position\":0.361,\"hexCode\":\"08372a\"},{\"position\":0.577,\"hexCode\":\"0d5945\"},{\"position\":0.762,\"hexCode\":\"127b5f\"}]},\"base\":{\"type\":\"split\",\"color1\":\"32244b\"}}",
+            "isSurpriseMe": false,
+            "globalPreviewOverrideImage": null,
+            "swatchImageId": 5400,
+            "sort_order": 370,
+            "startDate": "2020-09-03T23:19:00.000Z",
+            "endDate": null,
+            "themePreviewOverrideImage": null,
+            "themeCustomTextureMap": null,
+            "themeCustomModel": null,
+            "themeCustomNormalMap": null,
+            "themeCustomPreviewImage": null,
+            "bodyOptionValue": {
+                "id": 36,
+                "optionType": "bodycolortype",
+                "value": "fade",
+                "defaultPriceModifier": "40.00",
+                "sortOrder": 30,
+                "displayName": null,
+                "defaultWeightModifier": "0.00"
+            },
+            "baseOptionValue": {
+                "id": 37,
+                "optionType": "basecolortype",
+                "value": "split",
+                "defaultPriceModifier": "20.00",
+                "sortOrder": 0,
+                "displayName": null,
+                "defaultWeightModifier": "0.00"
+            },
+            "swatchImage": {
+                "id": 5400,
+                "url": "https://da6npmvqm28oa.cloudfront.net/08e4a00d-1f80-4d5b-8c0b-73e2c3ac3494"
+            }
+        },
+        {
+            "id": 508,
+            "name": "Proper Belle",
+            "description": "Metallic Yellow faded to Metallic Chartreuse with Silver Dazzle throughout.",
+            "bodyOptionId": 36,
+            "baseOptionId": 35,
+            "priceModifier": "20.00",
+            "singleProduct": false,
+            "specification": "{\"body\":{\"type\":\"fade-custom\",\"color1\":\"FFFFFF\",\"color2\":\"FFFFFF\",\"colorStops\":[{\"position\":0.746,\"hexCode\":\"fefa90\"},{\"position\":0.504,\"hexCode\":\"efad75\"},{\"position\":0.25,\"hexCode\":\"c3c651\"}],\"color1Metallic\":{\"hue\":\"c0c0c0\",\"intensity\":1.5,\"sparkleScarcity\":5}},\"base\":null}",
+            "isSurpriseMe": false,
+            "globalPreviewOverrideImage": null,
+            "swatchImageId": 7151,
+            "sort_order": 280,
+            "startDate": "2020-09-18T07:00:00.000Z",
+            "endDate": null,
+            "themePreviewOverrideImage": null,
+            "themeCustomTextureMap": null,
+            "themeCustomModel": null,
+            "themeCustomNormalMap": null,
+            "themeCustomPreviewImage": null,
+            "bodyOptionValue": {
+                "id": 36,
+                "optionType": "bodycolortype",
+                "value": "fade",
+                "defaultPriceModifier": "40.00",
+                "sortOrder": 30,
+                "displayName": null,
+                "defaultWeightModifier": "0.00"
+            },
+            "baseOptionValue": {
+                "id": 35,
+                "optionType": "basecolortype",
+                "value": "default",
+                "defaultPriceModifier": "0.00",
+                "sortOrder": 0,
+                "displayName": null,
+                "defaultWeightModifier": "0.00"
+            },
+            "swatchImage": {
+                "id": 7151,
+                "url": "https://da6npmvqm28oa.cloudfront.net/ebfa8334-2318-4096-9912-79825efd10b0"
+            }
+        },
+        {
+            "id": 509,
+            "name": "Angelic Mist",
+            "description": "Metallic Cyan faded to Metallic Olive Green with Silver Dazzle throughout.",
+            "bodyOptionId": 36,
+            "baseOptionId": 35,
+            "priceModifier": "20.00",
+            "singleProduct": false,
+            "specification": "{\"body\":{\"type\":\"fade-custom\",\"color1\":\"FFFFFF\",\"color2\":\"FFFFFF\",\"colorStops\":[{\"position\":0.75,\"hexCode\":\"89e1e1\"},{\"position\":0.5,\"hexCode\":\"b383ba\"},{\"position\":0.254,\"hexCode\":\"91a474\"}],\"color1Metallic\":{\"hue\":\"c0c0c0\",\"intensity\":1.5,\"sparkleScarcity\":5}},\"base\":null}",
+            "isSurpriseMe": false,
+            "globalPreviewOverrideImage": null,
+            "swatchImageId": 7152,
+            "sort_order": 290,
+            "startDate": "2020-09-18T07:00:00.000Z",
+            "endDate": null,
+            "themePreviewOverrideImage": null,
+            "themeCustomTextureMap": null,
+            "themeCustomModel": null,
+            "themeCustomNormalMap": null,
+            "themeCustomPreviewImage": null,
+            "bodyOptionValue": {
+                "id": 36,
+                "optionType": "bodycolortype",
+                "value": "fade",
+                "defaultPriceModifier": "40.00",
+                "sortOrder": 30,
+                "displayName": null,
+                "defaultWeightModifier": "0.00"
+            },
+            "baseOptionValue": {
+                "id": 35,
+                "optionType": "basecolortype",
+                "value": "default",
+                "defaultPriceModifier": "0.00",
+                "sortOrder": 0,
+                "displayName": null,
+                "defaultWeightModifier": "0.00"
+            },
+            "swatchImage": {
+                "id": 7152,
+                "url": "https://da6npmvqm28oa.cloudfront.net/2c0f5260-d62a-45f8-abfd-07d5a0e843de"
+            }
+        },
+        {
+            "id": 510,
+            "name": "Prim Rose",
+            "description": "Metallic Pink faded to Metallic Light Brown with Silver Dazzle throughout.",
+            "bodyOptionId": 36,
+            "baseOptionId": 35,
+            "priceModifier": "20.00",
+            "singleProduct": false,
+            "specification": "{\"body\":{\"type\":\"fade-custom\",\"color1\":\"FFFFFF\",\"color2\":\"FFFFFF\",\"colorStops\":[{\"position\":0.75,\"hexCode\":\"ffaab2\"},{\"position\":0.5,\"hexCode\":\"b383ba\"},{\"position\":0.246,\"hexCode\":\"c4985d\"}],\"color1Metallic\":{\"hue\":\"c0c0c0\",\"intensity\":1.5,\"sparkleScarcity\":5}},\"base\":null}",
+            "isSurpriseMe": false,
+            "globalPreviewOverrideImage": null,
+            "swatchImageId": 7153,
+            "sort_order": 300,
+            "startDate": "2020-09-18T07:00:00.000Z",
+            "endDate": null,
+            "themePreviewOverrideImage": null,
+            "themeCustomTextureMap": null,
+            "themeCustomModel": null,
+            "themeCustomNormalMap": null,
+            "themeCustomPreviewImage": null,
+            "bodyOptionValue": {
+                "id": 36,
+                "optionType": "bodycolortype",
+                "value": "fade",
+                "defaultPriceModifier": "40.00",
+                "sortOrder": 30,
+                "displayName": null,
+                "defaultWeightModifier": "0.00"
+            },
+            "baseOptionValue": {
+                "id": 35,
+                "optionType": "basecolortype",
+                "value": "default",
+                "defaultPriceModifier": "0.00",
+                "sortOrder": 0,
+                "displayName": null,
+                "defaultWeightModifier": "0.00"
+            },
+            "swatchImage": {
+                "id": 7153,
+                "url": "https://da6npmvqm28oa.cloudfront.net/f3ce2407-5a88-4734-b33b-b86401b9a5b9"
+            }
+        },
+        {
+            "id": 511,
+            "name": "Wicked Haze",
+            "description": "Metallic Black faded to Metallic Dark Purple with Silver Dazzle throughout.",
+            "bodyOptionId": 36,
+            "baseOptionId": 35,
+            "priceModifier": "20.00",
+            "singleProduct": false,
+            "specification": "{\"body\":{\"type\":\"fade-custom\",\"color1\":\"FFFFFF\",\"color2\":\"FFFFFF\",\"colorStops\":[{\"position\":0.754,\"hexCode\":\"383838\"},{\"position\":0.496,\"hexCode\":\"00423e\"},{\"position\":0.246,\"hexCode\":\"543e5a\"}],\"color1Metallic\":{\"hue\":\"c0c0c0\",\"intensity\":1.5,\"sparkleScarcity\":5}},\"base\":null}",
+            "isSurpriseMe": false,
+            "globalPreviewOverrideImage": null,
+            "swatchImageId": 7154,
+            "sort_order": 310,
+            "startDate": "2020-09-18T07:00:00.000Z",
+            "endDate": null,
+            "themePreviewOverrideImage": null,
+            "themeCustomTextureMap": null,
+            "themeCustomModel": null,
+            "themeCustomNormalMap": null,
+            "themeCustomPreviewImage": null,
+            "bodyOptionValue": {
+                "id": 36,
+                "optionType": "bodycolortype",
+                "value": "fade",
+                "defaultPriceModifier": "40.00",
+                "sortOrder": 30,
+                "displayName": null,
+                "defaultWeightModifier": "0.00"
+            },
+            "baseOptionValue": {
+                "id": 35,
+                "optionType": "basecolortype",
+                "value": "default",
+                "defaultPriceModifier": "0.00",
+                "sortOrder": 0,
+                "displayName": null,
+                "defaultWeightModifier": "0.00"
+            },
+            "swatchImage": {
+                "id": 7154,
+                "url": "https://da6npmvqm28oa.cloudfront.net/77cdd47a-fefc-4901-ab01-afdd2344c099"
+            }
+        },
+        {
+            "id": 536,
+            "name": "Sky Spirit",
+            "description": "A Light Metallic Purple Marbled with a Metallic Dark Magenta that both glow Aqua topped by a Spooky Seconds Highlight.",
+            "bodyOptionId": 39,
+            "baseOptionId": 35,
+            "priceModifier": "10.00",
+            "singleProduct": false,
+            "specification": "{\"body\":{\"type\":\"marble\",\"color1\":\"cfcfe6\",\"color2\":\"ab66a3\",\"colorStops\":[],\"color2Metallic\":{\"hue\":\"008000\",\"intensity\":0.84,\"sparkleScarcity\":8},\"color1Metallic\":{\"hue\":\"c0c0c0\",\"intensity\":0.79,\"sparkleScarcity\":8}},\"base\":null}",
+            "isSurpriseMe": false,
+            "globalPreviewOverrideImage": null,
+            "swatchImageId": 7608,
+            "sort_order": 220,
+            "startDate": "2020-09-03T23:19:00.000Z",
+            "endDate": null,
+            "themePreviewOverrideImage": null,
+            "themeCustomTextureMap": null,
+            "themeCustomModel": null,
+            "themeCustomNormalMap": null,
+            "themeCustomPreviewImage": null,
+            "bodyOptionValue": {
+                "id": 39,
+                "optionType": "bodycolortype",
+                "value": "marble",
+                "defaultPriceModifier": "20.00",
+                "sortOrder": 20,
+                "displayName": null,
+                "defaultWeightModifier": "0.00"
+            },
+            "baseOptionValue": {
+                "id": 35,
+                "optionType": "basecolortype",
+                "value": "default",
+                "defaultPriceModifier": "0.00",
+                "sortOrder": 0,
+                "displayName": null,
+                "defaultWeightModifier": "0.00"
+            },
+            "swatchImage": {
+                "id": 7608,
+                "url": "https://da6npmvqm28oa.cloudfront.net/5d754d8b-b0ed-444f-9e11-8b8df29f387d"
+            }
+        },
+        {
+            "id": 541,
+            "name": "Green Dancer",
+            "description": "A marble of Metallic Green  and Metallic Yellow-Green with Silver Dazzle that both Glow Purple topped by an Aqua Glow in the Dark Spooky Seconds Highlight.",
+            "bodyOptionId": 39,
+            "baseOptionId": 35,
+            "priceModifier": "10.00",
+            "singleProduct": false,
+            "specification": "{\"body\":{\"type\":\"marble\",\"color1\":\"03A608\",\"color2\":\"83FB00\",\"colorStops\":[],\"color2Metallic\":{\"hue\":\"c0c0c0\",\"intensity\":1.1,\"sparkleScarcity\":1},\"color1Metallic\":{\"hue\":\"559136\",\"intensity\":0.5,\"sparkleScarcity\":6}},\"base\":null}",
+            "isSurpriseMe": false,
+            "globalPreviewOverrideImage": null,
+            "swatchImageId": 7668,
+            "sort_order": 230,
+            "startDate": "2020-09-03T23:19:16.113Z",
+            "endDate": null,
+            "themePreviewOverrideImage": null,
+            "themeCustomTextureMap": null,
+            "themeCustomModel": null,
+            "themeCustomNormalMap": null,
+            "themeCustomPreviewImage": null,
+            "bodyOptionValue": {
+                "id": 39,
+                "optionType": "bodycolortype",
+                "value": "marble",
+                "defaultPriceModifier": "20.00",
+                "sortOrder": 20,
+                "displayName": null,
+                "defaultWeightModifier": "0.00"
+            },
+            "baseOptionValue": {
+                "id": 35,
+                "optionType": "basecolortype",
+                "value": "default",
+                "defaultPriceModifier": "0.00",
+                "sortOrder": 0,
+                "displayName": null,
+                "defaultWeightModifier": "0.00"
+            },
+            "swatchImage": {
+                "id": 7668,
+                "url": "https://da6npmvqm28oa.cloudfront.net/745ed51e-ebc7-40ab-952e-600447c2c912"
+            }
+        },
+        {
+            "id": 565,
+            "name": "Blue Omen",
+            "description": "A marble of a Metallic Blue-Purple and Metallic Blue with Silver Dazzle that both Glow Green topped by a Blue Glow in the Dark Spooky Seconds Highlight.",
+            "bodyOptionId": 39,
+            "baseOptionId": 35,
+            "priceModifier": "10.00",
+            "singleProduct": false,
+            "specification": "{\"body\":{\"type\":\"marble\",\"color1\":\"0B47B5\",\"color2\":\"400cb7\",\"colorStops\":[],\"color2Metallic\":{\"hue\":\"2038b7\",\"intensity\":0.5,\"sparkleScarcity\":8},\"color1Metallic\":{\"hue\":\"c0c0c0\",\"intensity\":1,\"sparkleScarcity\":8}},\"base\":null}",
+            "isSurpriseMe": false,
+            "globalPreviewOverrideImage": null,
+            "swatchImageId": 7981,
+            "sort_order": 240,
+            "startDate": "2020-09-03T23:19:16.113Z",
+            "endDate": null,
+            "themePreviewOverrideImage": null,
+            "themeCustomTextureMap": null,
+            "themeCustomModel": null,
+            "themeCustomNormalMap": null,
+            "themeCustomPreviewImage": null,
+            "bodyOptionValue": {
+                "id": 39,
+                "optionType": "bodycolortype",
+                "value": "marble",
+                "defaultPriceModifier": "20.00",
+                "sortOrder": 20,
+                "displayName": null,
+                "defaultWeightModifier": "0.00"
+            },
+            "baseOptionValue": {
+                "id": 35,
+                "optionType": "basecolortype",
+                "value": "default",
+                "defaultPriceModifier": "0.00",
+                "sortOrder": 0,
+                "displayName": null,
+                "defaultWeightModifier": "0.00"
+            },
+            "swatchImage": {
+                "id": 7981,
+                "url": "https://da6npmvqm28oa.cloudfront.net/a272a754-2b0b-4f02-b7ff-0087818b8db1"
+            }
+        },
+        {
+            "id": 566,
+            "name": "Frozen Fox",
+            "description": "A marble Metallic Blue of with Silver Dazzle and Metallic Green-Blue that both Glow Blue topped by a Purple Glow in the Dark Spooky Seconds Highlight.",
+            "bodyOptionId": 39,
+            "baseOptionId": 35,
+            "priceModifier": "10.00",
+            "singleProduct": false,
+            "specification": "{\"body\":{\"type\":\"marble\",\"color1\":\"aceeda\",\"color2\":\"0B47B5\",\"colorStops\":[],\"color2Metallic\":{\"hue\":\"2038b7\",\"intensity\":0.5,\"sparkleScarcity\":8},\"color1Metallic\":{\"hue\":\"c0c0c0\",\"intensity\":0.5,\"sparkleScarcity\":8}},\"base\":null}",
+            "isSurpriseMe": false,
+            "globalPreviewOverrideImage": null,
+            "swatchImageId": 8284,
+            "sort_order": 250,
+            "startDate": "2020-09-03T23:19:00.000Z",
+            "endDate": null,
+            "themePreviewOverrideImage": null,
+            "themeCustomTextureMap": null,
+            "themeCustomModel": null,
+            "themeCustomNormalMap": null,
+            "themeCustomPreviewImage": null,
+            "bodyOptionValue": {
+                "id": 39,
+                "optionType": "bodycolortype",
+                "value": "marble",
+                "defaultPriceModifier": "20.00",
+                "sortOrder": 20,
+                "displayName": null,
+                "defaultWeightModifier": "0.00"
+            },
+            "baseOptionValue": {
+                "id": 35,
+                "optionType": "basecolortype",
+                "value": "default",
+                "defaultPriceModifier": "0.00",
+                "sortOrder": 0,
+                "displayName": null,
+                "defaultWeightModifier": "0.00"
+            },
+            "swatchImage": {
+                "id": 8284,
+                "url": "https://da6npmvqm28oa.cloudfront.net/2cf0ea70-95cf-4007-be5b-c10f50c63f87"
+            }
+        },
+        {
+            "id": 676,
+            "name": "BD Metallic Blue",
+            "description": "A strong metallic blue with green pearl accent",
+            "bodyOptionId": 38,
+            "baseOptionId": 35,
+            "priceModifier": "0.00",
+            "singleProduct": false,
+            "specification": "{\"body\":{\"type\":\"solid\",\"color1\":\"0052c5\",\"color2\":\"FFFFFF\",\"colorStops\":[],\"color1Metallic\":{\"hue\":\"FFED66\",\"intensity\":0.5,\"sparkleScarcity\":8}},\"base\":null}",
+            "isSurpriseMe": false,
+            "globalPreviewOverrideImage": null,
+            "swatchImageId": 8968,
+            "sort_order": 100,
+            "startDate": "2020-09-18T07:00:00.000Z",
+            "endDate": null,
+            "themePreviewOverrideImage": null,
+            "themeCustomTextureMap": null,
+            "themeCustomModel": null,
+            "themeCustomNormalMap": null,
+            "themeCustomPreviewImage": null,
+            "bodyOptionValue": {
+                "id": 38,
+                "optionType": "bodycolortype",
+                "value": "solid",
+                "defaultPriceModifier": "0.00",
+                "sortOrder": 10,
+                "displayName": null,
+                "defaultWeightModifier": "0.00"
+            },
+            "baseOptionValue": {
+                "id": 35,
+                "optionType": "basecolortype",
+                "value": "default",
+                "defaultPriceModifier": "0.00",
+                "sortOrder": 0,
+                "displayName": null,
+                "defaultWeightModifier": "0.00"
+            },
+            "swatchImage": {
+                "id": 8968,
+                "url": "https://da6npmvqm28oa.cloudfront.net/8052f5d5-0461-43d7-b805-ed3af3b6ae88"
+            }
+        },
+        {
+            "id": 672,
+            "name": "BD Metallic Red",
+            "description": "A vibrant metallic red",
+            "bodyOptionId": 38,
+            "baseOptionId": 35,
+            "priceModifier": "0.00",
+            "singleProduct": false,
+            "specification": "{\"body\":{\"type\":\"solid\",\"color1\":\"ff0e3f\",\"color2\":\"FFFFFF\",\"colorStops\":[],\"color1Metallic\":{\"hue\":\"FFED66\",\"intensity\":0.5,\"sparkleScarcity\":4}},\"base\":null}",
+            "isSurpriseMe": false,
+            "globalPreviewOverrideImage": null,
+            "swatchImageId": 8974,
+            "sort_order": 80,
+            "startDate": "2020-09-18T07:00:00.000Z",
+            "endDate": null,
+            "themePreviewOverrideImage": null,
+            "themeCustomTextureMap": null,
+            "themeCustomModel": null,
+            "themeCustomNormalMap": null,
+            "themeCustomPreviewImage": null,
+            "bodyOptionValue": {
+                "id": 38,
+                "optionType": "bodycolortype",
+                "value": "solid",
+                "defaultPriceModifier": "0.00",
+                "sortOrder": 10,
+                "displayName": null,
+                "defaultWeightModifier": "0.00"
+            },
+            "baseOptionValue": {
+                "id": 35,
+                "optionType": "basecolortype",
+                "value": "default",
+                "defaultPriceModifier": "0.00",
+                "sortOrder": 0,
+                "displayName": null,
+                "defaultWeightModifier": "0.00"
+            },
+            "swatchImage": {
+                "id": 8974,
+                "url": "https://da6npmvqm28oa.cloudfront.net/2e66cbc6-b2e0-42e6-b00b-1c203bb8f782"
+            }
+        },
+        {
+            "id": 667,
+            "name": "Duka-Cola Quantum",
+            "description": "A blue color with silver shimmer and blue glow",
+            "bodyOptionId": 38,
+            "baseOptionId": 35,
+            "priceModifier": "0.00",
+            "singleProduct": false,
+            "specification": "{\"body\":{\"type\":\"solid\",\"color1\":\"86ceff\",\"color2\":\"FFFFFF\",\"colorStops\":[],\"color1Metallic\":{\"hue\":\"bec2cb\",\"intensity\":0.5,\"sparkleScarcity\":0}},\"base\":null}",
+            "isSurpriseMe": false,
+            "globalPreviewOverrideImage": null,
+            "swatchImageId": 8971,
+            "sort_order": 160,
+            "startDate": "2020-09-18T20:00:00.000Z",
+            "endDate": null,
+            "themePreviewOverrideImage": null,
+            "themeCustomTextureMap": null,
+            "themeCustomModel": null,
+            "themeCustomNormalMap": null,
+            "themeCustomPreviewImage": null,
+            "bodyOptionValue": {
+                "id": 38,
+                "optionType": "bodycolortype",
+                "value": "solid",
+                "defaultPriceModifier": "0.00",
+                "sortOrder": 10,
+                "displayName": null,
+                "defaultWeightModifier": "0.00"
+            },
+            "baseOptionValue": {
+                "id": 35,
+                "optionType": "basecolortype",
+                "value": "default",
+                "defaultPriceModifier": "0.00",
+                "sortOrder": 0,
+                "displayName": null,
+                "defaultWeightModifier": "0.00"
+            },
+            "swatchImage": {
+                "id": 8971,
+                "url": "https://da6npmvqm28oa.cloudfront.net/84a63f2d-7993-4047-9fad-db56e8647f7a"
+            }
+        },
+        {
+            "id": 668,
+            "name": "Ultraviolet",
+            "description": "A purple color with silver shimmer and purple glow",
+            "bodyOptionId": 38,
+            "baseOptionId": 35,
+            "priceModifier": "0.00",
+            "singleProduct": false,
+            "specification": "{\"body\":{\"type\":\"solid\",\"color1\":\"d6a0d6\",\"color2\":\"FFFFFF\",\"colorStops\":[],\"color1Metallic\":{\"hue\":\"bec2cb\",\"intensity\":0.5,\"sparkleScarcity\":0}},\"base\":null}",
+            "isSurpriseMe": false,
+            "globalPreviewOverrideImage": null,
+            "swatchImageId": 8972,
+            "sort_order": 150,
+            "startDate": "2020-09-18T19:00:00.000Z",
+            "endDate": null,
+            "themePreviewOverrideImage": null,
+            "themeCustomTextureMap": null,
+            "themeCustomModel": null,
+            "themeCustomNormalMap": null,
+            "themeCustomPreviewImage": null,
+            "bodyOptionValue": {
+                "id": 38,
+                "optionType": "bodycolortype",
+                "value": "solid",
+                "defaultPriceModifier": "0.00",
+                "sortOrder": 10,
+                "displayName": null,
+                "defaultWeightModifier": "0.00"
+            },
+            "baseOptionValue": {
+                "id": 35,
+                "optionType": "basecolortype",
+                "value": "default",
+                "defaultPriceModifier": "0.00",
+                "sortOrder": 0,
+                "displayName": null,
+                "defaultWeightModifier": "0.00"
+            },
+            "swatchImage": {
+                "id": 8972,
+                "url": "https://da6npmvqm28oa.cloudfront.net/a527198a-0698-4c1e-ba01-1511811bb8d3"
+            }
+        },
+        {
+            "id": 669,
+            "name": "Starlight Glow",
+            "description": "An aqua color with silver shimmer and an aqua glow",
+            "bodyOptionId": 38,
+            "baseOptionId": 35,
+            "priceModifier": "0.00",
+            "singleProduct": false,
+            "specification": "{\"body\":{\"type\":\"solid\",\"color1\":\"07fcde\",\"color2\":\"FFFFFF\",\"colorStops\":[],\"color1Metallic\":{\"hue\":\"bec2cb\",\"intensity\":1,\"sparkleScarcity\":3.5}},\"base\":null}",
+            "isSurpriseMe": false,
+            "globalPreviewOverrideImage": null,
+            "swatchImageId": 8950,
+            "sort_order": 170,
+            "startDate": "2020-09-18T07:00:00.000Z",
+            "endDate": null,
+            "themePreviewOverrideImage": null,
+            "themeCustomTextureMap": null,
+            "themeCustomModel": null,
+            "themeCustomNormalMap": null,
+            "themeCustomPreviewImage": null,
+            "bodyOptionValue": {
+                "id": 38,
+                "optionType": "bodycolortype",
+                "value": "solid",
+                "defaultPriceModifier": "0.00",
+                "sortOrder": 10,
+                "displayName": null,
+                "defaultWeightModifier": "0.00"
+            },
+            "baseOptionValue": {
+                "id": 35,
+                "optionType": "basecolortype",
+                "value": "default",
+                "defaultPriceModifier": "0.00",
+                "sortOrder": 0,
+                "displayName": null,
+                "defaultWeightModifier": "0.00"
+            },
+            "swatchImage": {
+                "id": 8950,
+                "url": "https://da6npmvqm28oa.cloudfront.net/025c4b15-1bf4-4435-9a98-3de4f3df2f0f"
+            }
+        },
+        {
+            "id": 670,
+            "name": "Ectoplasm",
+            "description": "A green toy with silver shimmer and green glow",
+            "bodyOptionId": 38,
+            "baseOptionId": 35,
+            "priceModifier": "0.00",
+            "singleProduct": false,
+            "specification": "{\"body\":{\"type\":\"solid\",\"color1\":\"1bfabc\",\"color2\":\"FFFFFF\",\"colorStops\":[],\"color1Metallic\":{\"hue\":\"bec2cb\",\"intensity\":1,\"sparkleScarcity\":4}},\"base\":null}",
+            "isSurpriseMe": false,
+            "globalPreviewOverrideImage": null,
+            "swatchImageId": 8951,
+            "sort_order": 140,
+            "startDate": "2020-09-18T07:00:00.000Z",
+            "endDate": null,
+            "themePreviewOverrideImage": null,
+            "themeCustomTextureMap": null,
+            "themeCustomModel": null,
+            "themeCustomNormalMap": null,
+            "themeCustomPreviewImage": null,
+            "bodyOptionValue": {
+                "id": 38,
+                "optionType": "bodycolortype",
+                "value": "solid",
+                "defaultPriceModifier": "0.00",
+                "sortOrder": 10,
+                "displayName": null,
+                "defaultWeightModifier": "0.00"
+            },
+            "baseOptionValue": {
+                "id": 35,
+                "optionType": "basecolortype",
+                "value": "default",
+                "defaultPriceModifier": "0.00",
+                "sortOrder": 0,
+                "displayName": null,
+                "defaultWeightModifier": "0.00"
+            },
+            "swatchImage": {
+                "id": 8951,
+                "url": "https://da6npmvqm28oa.cloudfront.net/705cb05e-2a71-484a-9883-ff5a09a42199"
+            }
+        },
+        {
+            "id": 675,
+            "name": "BD Metallic Cyan",
+            "description": "A shiny metallic cyan",
+            "bodyOptionId": 38,
+            "baseOptionId": 35,
+            "priceModifier": "0.00",
+            "singleProduct": false,
+            "specification": "{\"body\":{\"type\":\"solid\",\"color1\":\"00ffea\",\"color2\":\"FFFFFF\",\"colorStops\":[],\"color1Metallic\":{\"hue\":\"FFED66\",\"intensity\":0.5,\"sparkleScarcity\":8}},\"base\":null}",
+            "isSurpriseMe": false,
+            "globalPreviewOverrideImage": null,
+            "swatchImageId": 8967,
+            "sort_order": 120,
+            "startDate": "2020-09-18T07:00:00.000Z",
+            "endDate": null,
+            "themePreviewOverrideImage": null,
+            "themeCustomTextureMap": null,
+            "themeCustomModel": null,
+            "themeCustomNormalMap": null,
+            "themeCustomPreviewImage": null,
+            "bodyOptionValue": {
+                "id": 38,
+                "optionType": "bodycolortype",
+                "value": "solid",
+                "defaultPriceModifier": "0.00",
+                "sortOrder": 10,
+                "displayName": null,
+                "defaultWeightModifier": "0.00"
+            },
+            "baseOptionValue": {
+                "id": 35,
+                "optionType": "basecolortype",
+                "value": "default",
+                "defaultPriceModifier": "0.00",
+                "sortOrder": 0,
+                "displayName": null,
+                "defaultWeightModifier": "0.00"
+            },
+            "swatchImage": {
+                "id": 8967,
+                "url": "https://da6npmvqm28oa.cloudfront.net/1ce1e497-4e64-4f47-b710-bb9bc02cb0cd"
+            }
+        },
+        {
+            "id": 674,
+            "name": "BD Metallic Green",
+            "description": "A deep metallic green",
+            "bodyOptionId": 38,
+            "baseOptionId": 35,
+            "priceModifier": "0.00",
+            "singleProduct": false,
+            "specification": "{\"body\":{\"type\":\"solid\",\"color1\":\"206b6b\",\"color2\":\"FFFFFF\",\"colorStops\":[],\"color1Metallic\":{\"hue\":\"FFED66\",\"intensity\":0.5,\"sparkleScarcity\":8}},\"base\":null}",
+            "isSurpriseMe": false,
+            "globalPreviewOverrideImage": null,
+            "swatchImageId": 8966,
+            "sort_order": 110,
+            "startDate": "2020-09-18T07:00:00.000Z",
+            "endDate": null,
+            "themePreviewOverrideImage": null,
+            "themeCustomTextureMap": null,
+            "themeCustomModel": null,
+            "themeCustomNormalMap": null,
+            "themeCustomPreviewImage": null,
+            "bodyOptionValue": {
+                "id": 38,
+                "optionType": "bodycolortype",
+                "value": "solid",
+                "defaultPriceModifier": "0.00",
+                "sortOrder": 10,
+                "displayName": null,
+                "defaultWeightModifier": "0.00"
+            },
+            "baseOptionValue": {
+                "id": 35,
+                "optionType": "basecolortype",
+                "value": "default",
+                "defaultPriceModifier": "0.00",
+                "sortOrder": 0,
+                "displayName": null,
+                "defaultWeightModifier": "0.00"
+            },
+            "swatchImage": {
+                "id": 8966,
+                "url": "https://da6npmvqm28oa.cloudfront.net/58325ac8-900c-4491-af8f-7d3ff2cf248c"
+            }
+        },
+        {
+            "id": 677,
+            "name": "BD Metallic Purple",
+            "description": "A rich metallic purple",
+            "bodyOptionId": 38,
+            "baseOptionId": 35,
+            "priceModifier": "0.00",
+            "singleProduct": false,
+            "specification": "{\"body\":{\"type\":\"solid\",\"color1\":\"7f2b7f\",\"color2\":\"FFFFFF\",\"colorStops\":[],\"color1Metallic\":{\"hue\":\"FFED66\",\"intensity\":0.5,\"sparkleScarcity\":8}},\"base\":null}",
+            "isSurpriseMe": false,
+            "globalPreviewOverrideImage": null,
+            "swatchImageId": 8969,
+            "sort_order": 90,
+            "startDate": "2020-09-18T07:00:00.000Z",
+            "endDate": null,
+            "themePreviewOverrideImage": null,
+            "themeCustomTextureMap": null,
+            "themeCustomModel": null,
+            "themeCustomNormalMap": null,
+            "themeCustomPreviewImage": null,
+            "bodyOptionValue": {
+                "id": 38,
+                "optionType": "bodycolortype",
+                "value": "solid",
+                "defaultPriceModifier": "0.00",
+                "sortOrder": 10,
+                "displayName": null,
+                "defaultWeightModifier": "0.00"
+            },
+            "baseOptionValue": {
+                "id": 35,
+                "optionType": "basecolortype",
+                "value": "default",
+                "defaultPriceModifier": "0.00",
+                "sortOrder": 0,
+                "displayName": null,
+                "defaultWeightModifier": "0.00"
+            },
+            "swatchImage": {
+                "id": 8969,
+                "url": "https://da6npmvqm28oa.cloudfront.net/a4c6be46-fea4-4d51-b3cb-97bef50ceb30"
+            }
+        },
+        {
+            "id": 673,
+            "name": "BD Metallic Yellow",
+            "description": "A bold metallic yellow",
+            "bodyOptionId": 38,
+            "baseOptionId": 35,
+            "priceModifier": "0.00",
+            "singleProduct": false,
+            "specification": "{\"body\":{\"type\":\"solid\",\"color1\":\"f4df0d\",\"color2\":\"FFFFFF\",\"colorStops\":[],\"color1Metallic\":{\"hue\":\"FFED66\",\"intensity\":0.5,\"sparkleScarcity\":8}},\"base\":null}",
+            "isSurpriseMe": false,
+            "globalPreviewOverrideImage": null,
+            "swatchImageId": 8965,
+            "sort_order": 130,
+            "startDate": "2020-09-18T07:00:00.000Z",
+            "endDate": null,
+            "themePreviewOverrideImage": null,
+            "themeCustomTextureMap": null,
+            "themeCustomModel": null,
+            "themeCustomNormalMap": null,
+            "themeCustomPreviewImage": null,
+            "bodyOptionValue": {
+                "id": 38,
+                "optionType": "bodycolortype",
+                "value": "solid",
+                "defaultPriceModifier": "0.00",
+                "sortOrder": 10,
+                "displayName": null,
+                "defaultWeightModifier": "0.00"
+            },
+            "baseOptionValue": {
+                "id": 35,
+                "optionType": "basecolortype",
+                "value": "default",
+                "defaultPriceModifier": "0.00",
+                "sortOrder": 0,
+                "displayName": null,
+                "defaultWeightModifier": "0.00"
+            },
+            "swatchImage": {
+                "id": 8965,
+                "url": "https://da6npmvqm28oa.cloudfront.net/66fd7b9c-1533-4dfc-be66-408ded259046"
+            }
+        },
+        {
+            "id": 671,
+            "name": "BD Metallic Magenta",
+            "description": "Metallic magenta with light blue accents",
+            "bodyOptionId": 38,
+            "baseOptionId": 35,
+            "priceModifier": "0.00",
+            "singleProduct": false,
+            "specification": "{\"body\":{\"type\":\"solid\",\"color1\":\"ff0095\",\"color2\":\"FFFFFF\",\"colorStops\":[],\"color1Metallic\":{\"hue\":\"DCDDEB\",\"intensity\":0.5,\"sparkleScarcity\":4}},\"base\":null}",
+            "isSurpriseMe": false,
+            "globalPreviewOverrideImage": null,
+            "swatchImageId": 8973,
+            "sort_order": 70,
+            "startDate": "2020-09-18T07:00:00.000Z",
+            "endDate": null,
+            "themePreviewOverrideImage": null,
+            "themeCustomTextureMap": null,
+            "themeCustomModel": null,
+            "themeCustomNormalMap": null,
+            "themeCustomPreviewImage": null,
+            "bodyOptionValue": {
+                "id": 38,
+                "optionType": "bodycolortype",
+                "value": "solid",
+                "defaultPriceModifier": "0.00",
+                "sortOrder": 10,
+                "displayName": null,
+                "defaultWeightModifier": "0.00"
+            },
+            "baseOptionValue": {
+                "id": 35,
+                "optionType": "basecolortype",
+                "value": "default",
+                "defaultPriceModifier": "0.00",
+                "sortOrder": 0,
+                "displayName": null,
+                "defaultWeightModifier": "0.00"
+            },
+            "swatchImage": {
+                "id": 8973,
+                "url": "https://da6npmvqm28oa.cloudfront.net/1bb37dcf-4108-40d7-ae35-c9acffdea587"
+            }
+        },
+        {
+            "id": 1097,
+            "name": "6th Kind ",
+            "description": "A crimson Red with a Blue glow, marbled with a reddish Purple that glows Green. This marble reacts to UV light and has a response that looks Orange.",
+            "bodyOptionId": 39,
+            "baseOptionId": 35,
+            "priceModifier": "10.00",
+            "singleProduct": false,
+            "specification": "{\"body\":{\"type\":\"marble\",\"color1\":\"c30000\",\"color2\":\"cb0857\",\"colorStops\":[],\"color1Metallic\":{\"hue\":\"FFED66\",\"intensity\":0.5,\"sparkleScarcity\":8},\"color2Metallic\":{\"hue\":\"FFED66\",\"intensity\":0.5,\"sparkleScarcity\":8}},\"base\":null}",
+            "isSurpriseMe": false,
+            "globalPreviewOverrideImage": null,
+            "swatchImageId": 12011,
+            "sort_order": 186,
+            "startDate": "2022-07-06T07:00:00.000Z",
+            "endDate": null,
+            "themePreviewOverrideImage": null,
+            "themeCustomTextureMap": null,
+            "themeCustomModel": null,
+            "themeCustomNormalMap": null,
+            "themeCustomPreviewImage": null,
+            "bodyOptionValue": {
+                "id": 39,
+                "optionType": "bodycolortype",
+                "value": "marble",
+                "defaultPriceModifier": "20.00",
+                "sortOrder": 20,
+                "displayName": null,
+                "defaultWeightModifier": "0.00"
+            },
+            "baseOptionValue": {
+                "id": 35,
+                "optionType": "basecolortype",
+                "value": "default",
+                "defaultPriceModifier": "0.00",
+                "sortOrder": 0,
+                "displayName": null,
+                "defaultWeightModifier": "0.00"
+            },
+            "swatchImage": {
+                "id": 12011,
+                "url": "https://da6npmvqm28oa.cloudfront.net/0138f8d3-0e34-4ab6-9eab-c09fd5261387"
+            }
+        },
+        {
+            "id": 1096,
+            "name": "1st Kind ",
+            "description": "Grey with hints of gold and a Green glow, marbled with a Metallic purple with a Purple glow",
+            "bodyOptionId": 39,
+            "baseOptionId": 35,
+            "priceModifier": "10.00",
+            "singleProduct": false,
+            "specification": "{\"body\":{\"type\":\"marble\",\"color1\":\"cbbebe\",\"color2\":\"cbb4d9\",\"colorStops\":[],\"color2Metallic\":{\"hue\":\"FFED66\",\"intensity\":1.3,\"sparkleScarcity\":0},\"color1Metallic\":{\"hue\":\"FFD700\",\"intensity\":2,\"sparkleScarcity\":10}},\"base\":null}",
+            "isSurpriseMe": false,
+            "globalPreviewOverrideImage": null,
+            "swatchImageId": 12163,
+            "sort_order": 181,
+            "startDate": "2022-07-06T07:00:00.000Z",
+            "endDate": null,
+            "themePreviewOverrideImage": null,
+            "themeCustomTextureMap": null,
+            "themeCustomModel": null,
+            "themeCustomNormalMap": null,
+            "themeCustomPreviewImage": null,
+            "bodyOptionValue": {
+                "id": 39,
+                "optionType": "bodycolortype",
+                "value": "marble",
+                "defaultPriceModifier": "20.00",
+                "sortOrder": 20,
+                "displayName": null,
+                "defaultWeightModifier": "0.00"
+            },
+            "baseOptionValue": {
+                "id": 35,
+                "optionType": "basecolortype",
+                "value": "default",
+                "defaultPriceModifier": "0.00",
+                "sortOrder": 0,
+                "displayName": null,
+                "defaultWeightModifier": "0.00"
+            },
+            "swatchImage": {
+                "id": 12163,
+                "url": "https://da6npmvqm28oa.cloudfront.net/6d445c71-5142-4370-af13-56d1f5ac9453"
+            }
+        },
+        {
+            "id": 326,
+            "name": "BD Bronze",
+            "description": "A Metallic Bronze.",
+            "bodyOptionId": 38,
+            "baseOptionId": 35,
+            "priceModifier": "0.00",
+            "singleProduct": false,
+            "specification": "{\"body\":{\"type\":\"solid\",\"color1\":\"cd7f32\",\"color2\":\"FFFFFF\",\"colorStops\":[],\"color1Metallic\":{\"hue\":\"cd7f32\",\"intensity\":1.09,\"sparkleScarcity\":5}},\"base\":null}",
+            "isSurpriseMe": false,
+            "globalPreviewOverrideImage": null,
+            "swatchImageId": 4335,
+            "sort_order": 60,
+            "startDate": "2020-09-03T23:19:00.000Z",
+            "endDate": null,
+            "themePreviewOverrideImage": null,
+            "themeCustomTextureMap": null,
+            "themeCustomModel": null,
+            "themeCustomNormalMap": null,
+            "themeCustomPreviewImage": null,
+            "bodyOptionValue": {
+                "id": 38,
+                "optionType": "bodycolortype",
+                "value": "solid",
+                "defaultPriceModifier": "0.00",
+                "sortOrder": 10,
+                "displayName": null,
+                "defaultWeightModifier": "0.00"
+            },
+            "baseOptionValue": {
+                "id": 35,
+                "optionType": "basecolortype",
+                "value": "default",
+                "defaultPriceModifier": "0.00",
+                "sortOrder": 0,
+                "displayName": null,
+                "defaultWeightModifier": "0.00"
+            },
+            "swatchImage": {
+                "id": 4335,
+                "url": "https://da6npmvqm28oa.cloudfront.net/00713caf-cc68-4481-ab5e-6ddbd27db46f"
+            }
+        },
+        {
+            "id": 304,
+            "name": "Surprise Me",
+            "description": "It's a surprise!",
+            "bodyOptionId": 38,
+            "baseOptionId": 35,
+            "priceModifier": "0.00",
+            "singleProduct": false,
+            "specification": "{\"body\":{\"type\":\"solid\",\"color1\":\"FFFFFF\"},\"customTextureMap\":true}",
+            "isSurpriseMe": true,
+            "globalPreviewOverrideImage": null,
+            "swatchImageId": null,
+            "sort_order": 1030,
+            "startDate": "2020-09-03T23:19:16.113Z",
+            "endDate": null,
+            "themePreviewOverrideImage": null,
+            "themeCustomTextureMap": null,
+            "themeCustomModel": null,
+            "themeCustomNormalMap": null,
+            "themeCustomPreviewImage": {
+                "id": 12445,
+                "url": "https://da6npmvqm28oa.cloudfront.net/88690474-3f71-4da5-83d1-0058464999fb.png"
+            },
+            "bodyOptionValue": {
+                "id": 38,
+                "optionType": "bodycolortype",
+                "value": "solid",
+                "defaultPriceModifier": "0.00",
+                "sortOrder": 10,
+                "displayName": null,
+                "defaultWeightModifier": "0.00"
+            },
+            "baseOptionValue": {
+                "id": 35,
+                "optionType": "basecolortype",
+                "value": "default",
+                "defaultPriceModifier": "0.00",
+                "sortOrder": 0,
+                "displayName": null,
+                "defaultWeightModifier": "0.00"
+            }
+        }
+    ],
+    "dimensions": {
+        "small": {
+            "sizeSort": 30,
+            "circumference-base": {
+                "measurementType": "circumference-base",
+                "name": "Circumference of Base",
+                "size": "small",
+                "measurement": 11.5,
+                "dimensionSort": 130
+            },
+            "circuference-head": {
+                "measurementType": "circuference-head",
+                "name": "Circumference of Head",
+                "size": "small",
+                "measurement": 5.69,
+                "dimensionSort": 170
+            },
+            "circumference-shaft": {
+                "measurementType": "circumference-shaft",
+                "name": "Circumference of Shaft",
+                "size": "small",
+                "measurement": 6.38,
+                "dimensionSort": 270
+            },
+            "circumference-testicles": {
+                "measurementType": "circumference-testicles",
+                "name": "Circumference of Testicles",
+                "size": "small",
+                "measurement": 6.63,
+                "dimensionSort": 340
+            },
+            "diameter-base": {
+                "measurementType": "diameter-base",
+                "name": "Diameter of Base",
+                "size": "small",
+                "measurement": 3.81,
+                "dimensionSort": 430
+            },
+            "diameter-head": {
+                "measurementType": "diameter-head",
+                "name": "Diameter of Head",
+                "size": "small",
+                "measurement": 1.88,
+                "dimensionSort": 460
+            },
+            "diameter-shaft": {
+                "measurementType": "diameter-shaft",
+                "name": "Diameter of Shaft",
+                "size": "small",
+                "measurement": 2.13,
+                "dimensionSort": 560
+            },
+            "diameter-testicles": {
+                "measurementType": "diameter-testicles",
+                "name": "Diameter of Testicles",
+                "size": "small",
+                "measurement": 2.19,
+                "dimensionSort": 630
+            },
+            "total-length": {
+                "measurementType": "total-length",
+                "name": "Total Length",
+                "size": "small",
+                "measurement": 8.63,
+                "dimensionSort": 1090
+            },
+            "usable-length": {
+                "measurementType": "usable-length",
+                "name": "Usable Length",
+                "size": "small",
+                "measurement": 6.5,
+                "dimensionSort": 1110
+            }
+        },
+        "extralarge": {
+            "sizeSort": 60,
+            "circumference-base": {
+                "measurementType": "circumference-base",
+                "name": "Circumference of Base",
+                "size": "extralarge",
+                "measurement": 22.75,
+                "dimensionSort": 130
+            },
+            "circuference-head": {
+                "measurementType": "circuference-head",
+                "name": "Circumference of Head",
+                "size": "extralarge",
+                "measurement": 11,
+                "dimensionSort": 170
+            },
+            "circumference-shaft": {
+                "measurementType": "circumference-shaft",
+                "name": "Circumference of Shaft",
+                "size": "extralarge",
+                "measurement": 13,
+                "dimensionSort": 270
+            },
+            "circumference-testicles": {
+                "measurementType": "circumference-testicles",
+                "name": "Circumference of Testicles",
+                "size": "extralarge",
+                "measurement": 13.13,
+                "dimensionSort": 340
+            },
+            "diameter-base": {
+                "measurementType": "diameter-base",
+                "name": "Diameter of Base",
+                "size": "extralarge",
+                "measurement": 7.75,
+                "dimensionSort": 430
+            },
+            "diameter-head": {
+                "measurementType": "diameter-head",
+                "name": "Diameter of Head",
+                "size": "extralarge",
+                "measurement": 3.75,
+                "dimensionSort": 460
+            },
+            "diameter-shaft": {
+                "measurementType": "diameter-shaft",
+                "name": "Diameter of Shaft",
+                "size": "extralarge",
+                "measurement": 4.25,
+                "dimensionSort": 560
+            },
+            "diameter-testicles": {
+                "measurementType": "diameter-testicles",
+                "name": "Diameter of Testicles",
+                "size": "extralarge",
+                "measurement": 4.25,
+                "dimensionSort": 630
+            },
+            "total-length": {
+                "measurementType": "total-length",
+                "name": "Total Length",
+                "size": "extralarge",
+                "measurement": 17.13,
+                "dimensionSort": 1090
+            },
+            "usable-length": {
+                "measurementType": "usable-length",
+                "name": "Usable Length",
+                "size": "extralarge",
+                "measurement": 12.75,
+                "dimensionSort": 1110
+            }
+        },
+        "medium": {
+            "sizeSort": 40,
+            "circumference-base": {
+                "measurementType": "circumference-base",
+                "name": "Circumference of Base",
+                "size": "medium",
+                "measurement": 14.75,
+                "dimensionSort": 130
+            },
+            "circuference-head": {
+                "measurementType": "circuference-head",
+                "name": "Circumference of Head",
+                "size": "medium",
+                "measurement": 7.38,
+                "dimensionSort": 170
+            },
+            "circumference-shaft": {
+                "measurementType": "circumference-shaft",
+                "name": "Circumference of Shaft",
+                "size": "medium",
+                "measurement": 8.44,
+                "dimensionSort": 270
+            },
+            "circumference-testicles": {
+                "measurementType": "circumference-testicles",
+                "name": "Circumference of Testicles",
+                "size": "medium",
+                "measurement": 8.5,
+                "dimensionSort": 340
+            },
+            "diameter-base": {
+                "measurementType": "diameter-base",
+                "name": "Diameter of Base",
+                "size": "medium",
+                "measurement": 5.13,
+                "dimensionSort": 430
+            },
+            "diameter-head": {
+                "measurementType": "diameter-head",
+                "name": "Diameter of Head",
+                "size": "medium",
+                "measurement": 2.44,
+                "dimensionSort": 460
+            },
+            "diameter-shaft": {
+                "measurementType": "diameter-shaft",
+                "name": "Diameter of Shaft",
+                "size": "medium",
+                "measurement": 2.81,
+                "dimensionSort": 560
+            },
+            "diameter-testicles": {
+                "measurementType": "diameter-testicles",
+                "name": "Diameter of Testicles",
+                "size": "medium",
+                "measurement": 2.75,
+                "dimensionSort": 630
+            },
+            "total-length": {
+                "measurementType": "total-length",
+                "name": "Total Length",
+                "size": "medium",
+                "measurement": 11.25,
+                "dimensionSort": 1090
+            },
+            "usable-length": {
+                "measurementType": "usable-length",
+                "name": "Usable Length",
+                "size": "medium",
+                "measurement": 8.88,
+                "dimensionSort": 1110
+            }
+        },
+        "large": {
+            "sizeSort": 50,
+            "circumference-base": {
+                "measurementType": "circumference-base",
+                "name": "Circumference of Base",
+                "size": "large",
+                "measurement": 17.75,
+                "dimensionSort": 130
+            },
+            "circuference-head": {
+                "measurementType": "circuference-head",
+                "name": "Circumference of Head",
+                "size": "large",
+                "measurement": 9,
+                "dimensionSort": 170
+            },
+            "circumference-shaft": {
+                "measurementType": "circumference-shaft",
+                "name": "Circumference of Shaft",
+                "size": "large",
+                "measurement": 10.19,
+                "dimensionSort": 270
+            },
+            "circumference-testicles": {
+                "measurementType": "circumference-testicles",
+                "name": "Circumference of Testicles",
+                "size": "large",
+                "measurement": 10.38,
+                "dimensionSort": 340
+            },
+            "diameter-base": {
+                "measurementType": "diameter-base",
+                "name": "Diameter of Base",
+                "size": "large",
+                "measurement": 6.13,
+                "dimensionSort": 430
+            },
+            "diameter-head": {
+                "measurementType": "diameter-head",
+                "name": "Diameter of Head",
+                "size": "large",
+                "measurement": 3,
+                "dimensionSort": 460
+            },
+            "diameter-shaft": {
+                "measurementType": "diameter-shaft",
+                "name": "Diameter of Shaft",
+                "size": "large",
+                "measurement": 3.38,
+                "dimensionSort": 560
+            },
+            "diameter-testicles": {
+                "measurementType": "diameter-testicles",
+                "name": "Diameter of Testicles",
+                "size": "large",
+                "measurement": 3.38,
+                "dimensionSort": 630
+            },
+            "total-length": {
+                "measurementType": "total-length",
+                "name": "Total Length",
+                "size": "large",
+                "measurement": 13.5,
+                "dimensionSort": 1090
+            },
+            "usable-length": {
+                "measurementType": "usable-length",
+                "name": "Usable Length",
+                "size": "large",
+                "measurement": 10.5,
+                "dimensionSort": 1110
+            }
+        },
+        "mini": {
+            "sizeSort": 20,
+            "circumference-base": {
+                "measurementType": "circumference-base",
+                "name": "Circumference of Base",
+                "size": "mini",
+                "measurement": 9.13,
+                "dimensionSort": 130
+            },
+            "circuference-head": {
+                "measurementType": "circuference-head",
+                "name": "Circumference of Head",
+                "size": "mini",
+                "measurement": 4.63,
+                "dimensionSort": 170
+            },
+            "circumference-shaft": {
+                "measurementType": "circumference-shaft",
+                "name": "Circumference of Shaft",
+                "size": "mini",
+                "measurement": 5.25,
+                "dimensionSort": 270
+            },
+            "circumference-testicles": {
+                "measurementType": "circumference-testicles",
+                "name": "Circumference of Testicles",
+                "size": "mini",
+                "measurement": 5.31,
+                "dimensionSort": 340
+            },
+            "diameter-base": {
+                "measurementType": "diameter-base",
+                "name": "Diameter of Base",
+                "size": "mini",
+                "measurement": 3.13,
+                "dimensionSort": 430
+            },
+            "diameter-head": {
+                "measurementType": "diameter-head",
+                "name": "Diameter of Head",
+                "size": "mini",
+                "measurement": 1.5,
+                "dimensionSort": 460
+            },
+            "diameter-shaft": {
+                "measurementType": "diameter-shaft",
+                "name": "Diameter of Shaft",
+                "size": "mini",
+                "measurement": 1.69,
+                "dimensionSort": 560
+            },
+            "diameter-testicles": {
+                "measurementType": "diameter-testicles",
+                "name": "Diameter of Testicles",
+                "size": "mini",
+                "measurement": 1.69,
+                "dimensionSort": 630
+            },
+            "total-length": {
+                "measurementType": "total-length",
+                "name": "Total Length",
+                "size": "mini",
+                "measurement": 7.06,
+                "dimensionSort": 1090
+            },
+            "usable-length": {
+                "measurementType": "usable-length",
+                "name": "Usable Length",
+                "size": "mini",
+                "measurement": 5.13,
+                "dimensionSort": 1110
+            }
+        }
+    },
+    "optionExceptions": [
+        {
+            "id": 3,
+            "productId": null,
+            "global": true,
+            "message": "Extra large toys are not available in Firm.",
+            "colorThemeId": null,
+            "optionValues": [
+                {
+                    "id": 3,
+                    "optionType": "size",
+                    "value": "extralarge",
+                    "defaultPriceModifier": "115.00",
+                    "sortOrder": 60,
+                    "displayName": "Extra Large",
+                    "defaultWeightModifier": null,
+                    "_pivot_exception_id": 3,
+                    "_pivot_option_value_id": 3
+                },
+                {
+                    "id": 9,
+                    "optionType": "firmness",
+                    "value": "8",
+                    "defaultPriceModifier": "0.00",
+                    "sortOrder": 40,
+                    "displayName": "Firm",
+                    "defaultWeightModifier": "0.00",
+                    "_pivot_exception_id": 3,
+                    "_pivot_option_value_id": 9
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "productId": null,
+            "global": true,
+            "message": "Mini toys cannot accommodate both Cumtubes and Suction Cups.",
+            "colorThemeId": null,
+            "optionValues": [
+                {
+                    "id": 23,
+                    "optionType": "suctionCup",
+                    "value": "1",
+                    "defaultPriceModifier": "10.00",
+                    "sortOrder": 20,
+                    "displayName": "Yes, please!",
+                    "defaultWeightModifier": "0.00",
+                    "_pivot_exception_id": 5,
+                    "_pivot_option_value_id": 23
+                },
+                {
+                    "id": 13,
+                    "optionType": "cumtube",
+                    "value": "1",
+                    "defaultPriceModifier": "20.00",
+                    "sortOrder": 20,
+                    "displayName": "Yes, please!",
+                    "defaultWeightModifier": "0.84",
+                    "_pivot_exception_id": 5,
+                    "_pivot_option_value_id": 13
+                },
+                {
+                    "id": 10,
+                    "optionType": "size",
+                    "value": "mini",
+                    "defaultPriceModifier": "0.00",
+                    "sortOrder": 20,
+                    "displayName": "Mini",
+                    "defaultWeightModifier": null,
+                    "_pivot_exception_id": 5,
+                    "_pivot_option_value_id": 10
+                }
+            ]
+        },
+        {
+            "id": 857,
+            "productId": null,
+            "global": true,
+            "message": "Proper Belle does not support split firmness.",
+            "colorThemeId": 508,
+            "optionValues": [
+                {
+                    "id": 12,
+                    "optionType": "firmness",
+                    "value": "3/8",
+                    "defaultPriceModifier": "20.00",
+                    "sortOrder": 50,
+                    "displayName": "Soft Shaft, Firm Base",
+                    "defaultWeightModifier": "0.00",
+                    "_pivot_exception_id": 857,
+                    "_pivot_option_value_id": 12
+                }
+            ]
+        },
+        {
+            "id": 858,
+            "productId": null,
+            "global": true,
+            "message": "Proper Belle does not support split firmness.",
+            "colorThemeId": 508,
+            "optionValues": [
+                {
+                    "id": 11,
+                    "optionType": "firmness",
+                    "value": "5/8",
+                    "defaultPriceModifier": "20.00",
+                    "sortOrder": 60,
+                    "displayName": "Med Shaft, Firm Base",
+                    "defaultWeightModifier": "0.00",
+                    "_pivot_exception_id": 858,
+                    "_pivot_option_value_id": 11
+                }
+            ]
+        },
+        {
+            "id": 859,
+            "productId": null,
+            "global": true,
+            "message": "Angelic Mist does not support split firmness.",
+            "colorThemeId": 509,
+            "optionValues": [
+                {
+                    "id": 12,
+                    "optionType": "firmness",
+                    "value": "3/8",
+                    "defaultPriceModifier": "20.00",
+                    "sortOrder": 50,
+                    "displayName": "Soft Shaft, Firm Base",
+                    "defaultWeightModifier": "0.00",
+                    "_pivot_exception_id": 859,
+                    "_pivot_option_value_id": 12
+                }
+            ]
+        },
+        {
+            "id": 862,
+            "productId": null,
+            "global": true,
+            "message": "Prim Rose does not support split firmness.",
+            "colorThemeId": 510,
+            "optionValues": [
+                {
+                    "id": 11,
+                    "optionType": "firmness",
+                    "value": "5/8",
+                    "defaultPriceModifier": "20.00",
+                    "sortOrder": 60,
+                    "displayName": "Med Shaft, Firm Base",
+                    "defaultWeightModifier": "0.00",
+                    "_pivot_exception_id": 862,
+                    "_pivot_option_value_id": 11
+                }
+            ]
+        },
+        {
+            "id": 939,
+            "productId": null,
+            "global": true,
+            "message": "Prim Rose is not supported on Mini Toys",
+            "colorThemeId": 510,
+            "optionValues": [
+                {
+                    "id": 10,
+                    "optionType": "size",
+                    "value": "mini",
+                    "defaultPriceModifier": "0.00",
+                    "sortOrder": 20,
+                    "displayName": "Mini",
+                    "defaultWeightModifier": null,
+                    "_pivot_exception_id": 939,
+                    "_pivot_option_value_id": 10
+                }
+            ]
+        },
+        {
+            "id": 1029,
+            "productId": null,
+            "global": true,
+            "message": "Marbles are not allowed on Mini toys with Cumtubes",
+            "colorThemeId": null,
+            "optionValues": [
+                {
+                    "id": 13,
+                    "optionType": "cumtube",
+                    "value": "1",
+                    "defaultPriceModifier": "20.00",
+                    "sortOrder": 20,
+                    "displayName": "Yes, please!",
+                    "defaultWeightModifier": "0.84",
+                    "_pivot_exception_id": 1029,
+                    "_pivot_option_value_id": 13
+                },
+                {
+                    "id": 10,
+                    "optionType": "size",
+                    "value": "mini",
+                    "defaultPriceModifier": "0.00",
+                    "sortOrder": 20,
+                    "displayName": "Mini",
+                    "defaultWeightModifier": null,
+                    "_pivot_exception_id": 1029,
+                    "_pivot_option_value_id": 10
+                },
+                {
+                    "id": 39,
+                    "optionType": "bodycolortype",
+                    "value": "marble",
+                    "defaultPriceModifier": "20.00",
+                    "sortOrder": 20,
+                    "displayName": null,
+                    "defaultWeightModifier": "0.00",
+                    "_pivot_exception_id": 1029,
+                    "_pivot_option_value_id": 39
+                }
+            ]
+        },
+        {
+            "id": 1030,
+            "productId": null,
+            "global": true,
+            "message": "Midnight Aquatic is not supported on mini toys",
+            "colorThemeId": 340,
+            "optionValues": [
+                {
+                    "id": 10,
+                    "optionType": "size",
+                    "value": "mini",
+                    "defaultPriceModifier": "0.00",
+                    "sortOrder": 20,
+                    "displayName": "Mini",
+                    "defaultWeightModifier": null,
+                    "_pivot_exception_id": 1030,
+                    "_pivot_option_value_id": 10
+                }
+            ]
+        },
+        {
+            "id": 1036,
+            "productId": null,
+            "global": true,
+            "message": "Split Crimson Drake is not supported on mini toys",
+            "colorThemeId": 343,
+            "optionValues": [
+                {
+                    "id": 10,
+                    "optionType": "size",
+                    "value": "mini",
+                    "defaultPriceModifier": "0.00",
+                    "sortOrder": 20,
+                    "displayName": "Mini",
+                    "defaultWeightModifier": null,
+                    "_pivot_exception_id": 1036,
+                    "_pivot_option_value_id": 10
+                }
+            ]
+        },
+        {
+            "id": 1042,
+            "productId": "kyel",
+            "global": null,
+            "message": "Ky'el's Signature is not supported on Mini Toys.",
+            "colorThemeId": 1117,
+            "optionValues": [
+                {
+                    "id": 10,
+                    "optionType": "size",
+                    "value": "mini",
+                    "defaultPriceModifier": "0.00",
+                    "sortOrder": 20,
+                    "displayName": "Mini",
+                    "defaultWeightModifier": null,
+                    "_pivot_exception_id": 1042,
+                    "_pivot_option_value_id": 10
+                }
+            ]
+        },
+        {
+            "id": 1043,
+            "productId": "kyel",
+            "global": null,
+            "message": "Ky'el's Natural is not supported on Mini Toys.",
+            "colorThemeId": 1118,
+            "optionValues": [
+                {
+                    "id": 10,
+                    "optionType": "size",
+                    "value": "mini",
+                    "defaultPriceModifier": "0.00",
+                    "sortOrder": 20,
+                    "displayName": "Mini",
+                    "defaultWeightModifier": null,
+                    "_pivot_exception_id": 1043,
+                    "_pivot_option_value_id": 10
+                }
+            ]
+        },
+        {
+            "id": 940,
+            "productId": null,
+            "global": true,
+            "message": "Angelic Mist is not supported on Mini Toys",
+            "colorThemeId": 509,
+            "optionValues": [
+                {
+                    "id": 10,
+                    "optionType": "size",
+                    "value": "mini",
+                    "defaultPriceModifier": "0.00",
+                    "sortOrder": 20,
+                    "displayName": "Mini",
+                    "defaultWeightModifier": null,
+                    "_pivot_exception_id": 940,
+                    "_pivot_option_value_id": 10
+                }
+            ]
+        },
+        {
+            "id": 1037,
+            "productId": null,
+            "global": true,
+            "message": "Split Midnight Forest is not supported on mini toys",
+            "colorThemeId": 433,
+            "optionValues": [
+                {
+                    "id": 10,
+                    "optionType": "size",
+                    "value": "mini",
+                    "defaultPriceModifier": "0.00",
+                    "sortOrder": 20,
+                    "displayName": "Mini",
+                    "defaultWeightModifier": null,
+                    "_pivot_exception_id": 1037,
+                    "_pivot_option_value_id": 10
+                }
+            ]
+        },
+        {
+            "id": 908,
+            "productId": null,
+            "global": true,
+            "message": "Crimson Drake is not supported on Mini Toys.",
+            "colorThemeId": 341,
+            "optionValues": [
+                {
+                    "id": 10,
+                    "optionType": "size",
+                    "value": "mini",
+                    "defaultPriceModifier": "0.00",
+                    "sortOrder": 20,
+                    "displayName": "Mini",
+                    "defaultWeightModifier": null,
+                    "_pivot_exception_id": 908,
+                    "_pivot_option_value_id": 10
+                }
+            ]
+        },
+        {
+            "id": 941,
+            "productId": null,
+            "global": true,
+            "message": "Proper Belle is not supported on Mini Toys",
+            "colorThemeId": 508,
+            "optionValues": [
+                {
+                    "id": 10,
+                    "optionType": "size",
+                    "value": "mini",
+                    "defaultPriceModifier": "0.00",
+                    "sortOrder": 20,
+                    "displayName": "Mini",
+                    "defaultWeightModifier": null,
+                    "_pivot_exception_id": 941,
+                    "_pivot_option_value_id": 10
+                }
+            ]
+        },
+        {
+            "id": 1038,
+            "productId": null,
+            "global": true,
+            "message": "Split Midnight Aquatic is not supported on mini toys",
+            "colorThemeId": 342,
+            "optionValues": [
+                {
+                    "id": 10,
+                    "optionType": "size",
+                    "value": "mini",
+                    "defaultPriceModifier": "0.00",
+                    "sortOrder": 20,
+                    "displayName": "Mini",
+                    "defaultWeightModifier": null,
+                    "_pivot_exception_id": 1038,
+                    "_pivot_option_value_id": 10
+                }
+            ]
+        },
+        {
+            "id": 860,
+            "productId": null,
+            "global": true,
+            "message": "Angelic Mist does not support split firmness.",
+            "colorThemeId": 509,
+            "optionValues": [
+                {
+                    "id": 11,
+                    "optionType": "firmness",
+                    "value": "5/8",
+                    "defaultPriceModifier": "20.00",
+                    "sortOrder": 60,
+                    "displayName": "Med Shaft, Firm Base",
+                    "defaultWeightModifier": "0.00",
+                    "_pivot_exception_id": 860,
+                    "_pivot_option_value_id": 11
+                }
+            ]
+        },
+        {
+            "id": 861,
+            "productId": null,
+            "global": true,
+            "message": "Prim Rose does not support split firmness.",
+            "colorThemeId": 510,
+            "optionValues": [
+                {
+                    "id": 12,
+                    "optionType": "firmness",
+                    "value": "3/8",
+                    "defaultPriceModifier": "20.00",
+                    "sortOrder": 50,
+                    "displayName": "Soft Shaft, Firm Base",
+                    "defaultWeightModifier": "0.00",
+                    "_pivot_exception_id": 861,
+                    "_pivot_option_value_id": 12
+                }
+            ]
+        },
+        {
+            "id": 863,
+            "productId": null,
+            "global": true,
+            "message": "Wicked Haze does not support split firmness.",
+            "colorThemeId": 511,
+            "optionValues": [
+                {
+                    "id": 12,
+                    "optionType": "firmness",
+                    "value": "3/8",
+                    "defaultPriceModifier": "20.00",
+                    "sortOrder": 50,
+                    "displayName": "Soft Shaft, Firm Base",
+                    "defaultWeightModifier": "0.00",
+                    "_pivot_exception_id": 863,
+                    "_pivot_option_value_id": 12
+                }
+            ]
+        },
+        {
+            "id": 910,
+            "productId": null,
+            "global": true,
+            "message": "Midnight Forest is not supported on Mini Toys.",
+            "colorThemeId": 432,
+            "optionValues": [
+                {
+                    "id": 10,
+                    "optionType": "size",
+                    "value": "mini",
+                    "defaultPriceModifier": "0.00",
+                    "sortOrder": 20,
+                    "displayName": "Mini",
+                    "defaultWeightModifier": null,
+                    "_pivot_exception_id": 910,
+                    "_pivot_option_value_id": 10
+                }
+            ]
+        },
+        {
+            "id": 942,
+            "productId": null,
+            "global": true,
+            "message": "Wicked Haze is not supported on Mini Toys",
+            "colorThemeId": 511,
+            "optionValues": [
+                {
+                    "id": 10,
+                    "optionType": "size",
+                    "value": "mini",
+                    "defaultPriceModifier": "0.00",
+                    "sortOrder": 20,
+                    "displayName": "Mini",
+                    "defaultWeightModifier": null,
+                    "_pivot_exception_id": 942,
+                    "_pivot_option_value_id": 10
+                }
+            ]
+        },
+        {
+            "id": 542,
+            "productId": null,
+            "global": true,
+            "message": "Toys with split firmness need to have a separate base color.",
+            "colorThemeId": null,
+            "optionValues": [
+                {
+                    "id": 11,
+                    "optionType": "firmness",
+                    "value": "5/8",
+                    "defaultPriceModifier": "20.00",
+                    "sortOrder": 60,
+                    "displayName": "Med Shaft, Firm Base",
+                    "defaultWeightModifier": "0.00",
+                    "_pivot_exception_id": 542,
+                    "_pivot_option_value_id": 11
+                },
+                {
+                    "id": 35,
+                    "optionType": "basecolortype",
+                    "value": "default",
+                    "defaultPriceModifier": "0.00",
+                    "sortOrder": 0,
+                    "displayName": null,
+                    "defaultWeightModifier": "0.00",
+                    "_pivot_exception_id": 542,
+                    "_pivot_option_value_id": 35
+                }
+            ]
+        },
+        {
+            "id": 544,
+            "productId": null,
+            "global": true,
+            "message": "Toys with split firmness need to have a separate base color.",
+            "colorThemeId": null,
+            "optionValues": [
+                {
+                    "id": 12,
+                    "optionType": "firmness",
+                    "value": "3/8",
+                    "defaultPriceModifier": "20.00",
+                    "sortOrder": 50,
+                    "displayName": "Soft Shaft, Firm Base",
+                    "defaultWeightModifier": "0.00",
+                    "_pivot_exception_id": 544,
+                    "_pivot_option_value_id": 12
+                },
+                {
+                    "id": 35,
+                    "optionType": "basecolortype",
+                    "value": "default",
+                    "defaultPriceModifier": "0.00",
+                    "sortOrder": 0,
+                    "displayName": null,
+                    "defaultWeightModifier": "0.00",
+                    "_pivot_exception_id": 544,
+                    "_pivot_option_value_id": 35
+                }
+            ]
+        },
+        {
+            "id": 864,
+            "productId": null,
+            "global": true,
+            "message": "Wicked Haze does not support split firmness.",
+            "colorThemeId": 511,
+            "optionValues": [
+                {
+                    "id": 11,
+                    "optionType": "firmness",
+                    "value": "5/8",
+                    "defaultPriceModifier": "20.00",
+                    "sortOrder": 60,
+                    "displayName": "Med Shaft, Firm Base",
+                    "defaultWeightModifier": "0.00",
+                    "_pivot_exception_id": 864,
+                    "_pivot_option_value_id": 11
+                }
+            ]
+        },
+        {
+            "id": 730,
+            "productId": null,
+            "global": true,
+            "message": "Mini size toys do not support Marbles with cumtube.",
+            "colorThemeId": null,
+            "optionValues": [
+                {
+                    "id": 10,
+                    "optionType": "size",
+                    "value": "mini",
+                    "defaultPriceModifier": "0.00",
+                    "sortOrder": 20,
+                    "displayName": "Mini",
+                    "defaultWeightModifier": null,
+                    "_pivot_exception_id": 730,
+                    "_pivot_option_value_id": 10
+                },
+                {
+                    "id": 13,
+                    "optionType": "cumtube",
+                    "value": "1",
+                    "defaultPriceModifier": "20.00",
+                    "sortOrder": 20,
+                    "displayName": "Yes, please!",
+                    "defaultWeightModifier": "0.84",
+                    "_pivot_exception_id": 730,
+                    "_pivot_option_value_id": 13
+                },
+                {
+                    "id": 39,
+                    "optionType": "bodycolortype",
+                    "value": "marble",
+                    "defaultPriceModifier": "20.00",
+                    "sortOrder": 20,
+                    "displayName": null,
+                    "defaultWeightModifier": "0.00",
+                    "_pivot_exception_id": 730,
+                    "_pivot_option_value_id": 39
+                }
+            ]
+        },
+        {
+            "id": 831,
+            "productId": null,
+            "global": true,
+            "message": "Fades are not supported on Mini Toys.",
+            "colorThemeId": null,
+            "optionValues": [
+                {
+                    "id": 36,
+                    "optionType": "bodycolortype",
+                    "value": "fade",
+                    "defaultPriceModifier": "40.00",
+                    "sortOrder": 30,
+                    "displayName": null,
+                    "defaultWeightModifier": "0.00",
+                    "_pivot_exception_id": 831,
+                    "_pivot_option_value_id": 36
+                },
+                {
+                    "id": 10,
+                    "optionType": "size",
+                    "value": "mini",
+                    "defaultPriceModifier": "0.00",
+                    "sortOrder": 20,
+                    "displayName": "Mini",
+                    "defaultWeightModifier": null,
+                    "_pivot_exception_id": 831,
+                    "_pivot_option_value_id": 10
+                }
+            ]
+        },
+        {
+            "id": 832,
+            "productId": null,
+            "global": true,
+            "message": "Fades are not supported on Small Toys with Cumtubes.",
+            "colorThemeId": null,
+            "optionValues": [
+                {
+                    "id": 13,
+                    "optionType": "cumtube",
+                    "value": "1",
+                    "defaultPriceModifier": "20.00",
+                    "sortOrder": 20,
+                    "displayName": "Yes, please!",
+                    "defaultWeightModifier": "0.84",
+                    "_pivot_exception_id": 832,
+                    "_pivot_option_value_id": 13
+                },
+                {
+                    "id": 36,
+                    "optionType": "bodycolortype",
+                    "value": "fade",
+                    "defaultPriceModifier": "40.00",
+                    "sortOrder": 30,
+                    "displayName": null,
+                    "defaultWeightModifier": "0.00",
+                    "_pivot_exception_id": 832,
+                    "_pivot_option_value_id": 36
+                },
+                {
+                    "id": 1,
+                    "optionType": "size",
+                    "value": "small",
+                    "defaultPriceModifier": "0.00",
+                    "sortOrder": 30,
+                    "displayName": "Small",
+                    "defaultWeightModifier": null,
+                    "_pivot_exception_id": 832,
+                    "_pivot_option_value_id": 1
+                }
+            ]
+        }
+    ]
+}
