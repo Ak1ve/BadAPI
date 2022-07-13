@@ -8,7 +8,7 @@ from src.Models.abc.Fetchable import Fetchable
 from src.Models.utils import text_from_dict_str
 
 
-@dataclass(frozen=True, unsafe_hash=True)
+@dataclass(unsafe_hash=True)
 class Product(Fetchable[pro.Product]):
     sku: str
     name: str
@@ -24,7 +24,7 @@ class Product(Fetchable[pro.Product]):
     disabled: bool
 
     @classmethod
-    def from_json(cls, obj: pro.Product) -> Product:
+    def from_json(cls, obj: dict | pro.Product) -> Product:
         return cls(
             sku=obj.sku,
             name=obj.name,

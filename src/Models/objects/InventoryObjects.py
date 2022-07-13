@@ -9,7 +9,7 @@ from src.Models.abc.Fetchable import Fetchable
 from src.Models.utils import convert_list
 
 
-@dataclass(frozen=True, unsafe_hash=True)
+@dataclass(unsafe_hash=True)
 class InventoryImage(Fetchable[inv.InventoryImage]):
     id: int
     toy_id: int
@@ -22,7 +22,7 @@ class InventoryImage(Fetchable[inv.InventoryImage]):
     is_flop_photo: bool
 
     @classmethod
-    def from_json(cls, obj: inv.InventoryImage) -> InventoryImage:
+    def from_json(cls, obj: dict | inv.InventoryImage) -> InventoryImage:
         return cls(
             id=obj.id,
             toy_id=obj.inventoryToyId,
@@ -36,7 +36,7 @@ class InventoryImage(Fetchable[inv.InventoryImage]):
         )
 
 
-@dataclass(frozen=True, unsafe_hash=True)
+@dataclass(unsafe_hash=True)
 class InventoryColorTheme(Fetchable[inv.InventoryColorTheme]):
     id: int
     name: str
@@ -45,7 +45,7 @@ class InventoryColorTheme(Fetchable[inv.InventoryColorTheme]):
     start_date: datetime
 
     @classmethod
-    def from_json(cls, obj: inv.InventoryColorTheme) -> InventoryColorTheme:
+    def from_json(cls, obj: dict | inv.InventoryColorTheme) -> InventoryColorTheme:
         return cls(
             id=obj.id,
             name=obj.name,
@@ -55,7 +55,7 @@ class InventoryColorTheme(Fetchable[inv.InventoryColorTheme]):
         )
 
 
-@dataclass(frozen=True, unsafe_hash=True)
+@dataclass(unsafe_hash=True)
 class InventoryToy(Fetchable[inv.InventoryToy]):
     size_map: ClassVar[dict[int, str]] = {270: 'paw-twopack', 6: 'onesize', 120: 'macebundle', 119: 'morale',
                                           269: 'paw-single', 1: 'small', 118: 'discipline', 2: 'medium',
@@ -81,7 +81,7 @@ class InventoryToy(Fetchable[inv.InventoryToy]):
     images: list[InventoryImage]
 
     @classmethod
-    def from_json(cls, obj: inv.InventoryToy) -> InventoryToy:
+    def from_json(cls, obj: dict | inv.InventoryToy) -> InventoryToy:
         color_name = obj["color_display"] if "colorTheme" not in obj else obj["colorTheme"]["name"]
         return cls(
             id=obj.id,
@@ -102,14 +102,14 @@ class InventoryToy(Fetchable[inv.InventoryToy]):
         )
 
 
-@dataclass(frozen=True, unsafe_hash=True)
+@dataclass(unsafe_hash=True)
 class InventoryPage(Fetchable[inv.InventoryPage]):
     limit: int
     page: int
     toys: list[InventoryToy]
 
     @classmethod
-    def from_json(cls, obj: inv.InventoryPage) -> InventoryPage:
+    def from_json(cls, obj: dict | inv.InventoryPage) -> InventoryPage:
         return cls(
             limit=int(obj.limit),
             page=int(obj.page),

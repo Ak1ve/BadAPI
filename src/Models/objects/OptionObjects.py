@@ -9,7 +9,7 @@ from src.Models.abc.Fetchable import Fetchable
 from src.Models.utils import convert_list
 
 
-@dataclass(frozen=True, unsafe_hash=True)
+@dataclass(unsafe_hash=True)
 class OptionColorTheme(Fetchable[opt.OptionColorTheme]):
     id: int
     name: str
@@ -18,7 +18,7 @@ class OptionColorTheme(Fetchable[opt.OptionColorTheme]):
     start_date: datetime
 
     @classmethod
-    def from_json(cls, obj: opt.OptionColorTheme) -> OptionColorTheme:
+    def from_json(cls, obj: dict | opt.OptionColorTheme) -> OptionColorTheme:
         return cls(
             id=obj.id,
             name=obj.name,
@@ -100,7 +100,7 @@ measurement_names: list[str] = ["circumference_testicles",
                                 "diameter"]
 
 
-@dataclass(frozen=True, unsafe_hash=True)
+@dataclass(unsafe_hash=True)
 class OptionDimensions(Fetchable[opt.OptionDimensions]):
     circumference_testicles: Optional[Measurement]
     diameter_testicles: Optional[Measurement]
@@ -174,7 +174,7 @@ class OptionDimensions(Fetchable[opt.OptionDimensions]):
     diameter: Optional[Measurement]
 
     @classmethod
-    def from_json(cls, obj: opt.OptionDimensions) -> OptionDimensions:
+    def from_json(cls, obj: dict | opt.OptionDimensions) -> OptionDimensions:
         def fix_typos(k: str) -> str:
             k = k.replace("-", "_")
             if k == "circuference_head":
@@ -188,7 +188,7 @@ class OptionDimensions(Fetchable[opt.OptionDimensions]):
         return cls(**obj)
 
 
-@dataclass(frozen=True, unsafe_hash=True)
+@dataclass(unsafe_hash=True)
 class Measurement(Fetchable[opt.Measurement]):
     measurement_type: str
     name: str
@@ -196,7 +196,7 @@ class Measurement(Fetchable[opt.Measurement]):
     measurement: float
 
     @classmethod
-    def from_json(cls, obj: opt.Measurement) -> Measurement:
+    def from_json(cls, obj: dict | opt.Measurement) -> Measurement:
         return cls(
             measurement_type=obj.measurementType,
             name=obj.name,
@@ -205,7 +205,7 @@ class Measurement(Fetchable[opt.Measurement]):
         )
 
 
-@dataclass(frozen=True, unsafe_hash=True)
+@dataclass(unsafe_hash=True)
 class OptionExceptionValue(Fetchable[opt.OptionExceptionValue]):
     id: int
     option_type: str
@@ -214,7 +214,7 @@ class OptionExceptionValue(Fetchable[opt.OptionExceptionValue]):
     display_name: str
 
     @classmethod
-    def from_json(cls, obj: opt.OptionExceptionValue) -> OptionExceptionValue:
+    def from_json(cls, obj: dict | opt.OptionExceptionValue) -> OptionExceptionValue:
         return cls(
             id=obj.id,
             option_type=obj.optionType,
@@ -224,7 +224,7 @@ class OptionExceptionValue(Fetchable[opt.OptionExceptionValue]):
         )
 
 
-@dataclass(frozen=True, unsafe_hash=True)
+@dataclass(unsafe_hash=True)
 class OptionException(Fetchable[opt.OptionException]):
     id: int
     product_id: Optional[int]
@@ -245,7 +245,7 @@ class OptionException(Fetchable[opt.OptionException]):
         )
 
 
-@dataclass(frozen=True, unsafe_hash=True)
+@dataclass(unsafe_hash=True)
 class OptionValue(Fetchable[opt.OptionValue]):
     id: int
     option_value_id: int
@@ -254,7 +254,7 @@ class OptionValue(Fetchable[opt.OptionValue]):
     weight_modifier: float
 
     @classmethod
-    def from_json(cls, obj: opt.OptionValue) -> OptionValue:
+    def from_json(cls, obj: dict | opt.OptionValue) -> OptionValue:
         return cls(
             id=obj.id,
             option_value_id=obj.optionValueId,
@@ -264,7 +264,7 @@ class OptionValue(Fetchable[opt.OptionValue]):
         )
 
 
-@dataclass(frozen=True, unsafe_hash=True)
+@dataclass(unsafe_hash=True)
 class OptionSet(Fetchable[opt.Options]):
     base_color_type: list[OptionValue]
     cumtube: list[OptionValue]
@@ -273,7 +273,7 @@ class OptionSet(Fetchable[opt.Options]):
     size: list[OptionValue]
 
     @classmethod
-    def from_json(cls, obj: opt.Options) -> OptionSet:
+    def from_json(cls, obj: dict | opt.Options) -> OptionSet:
         return cls(
             base_color_type=convert_list(OptionValue, obj.basecolortype),
             cumtube=convert_list(OptionValue, obj.cumtube),
@@ -283,7 +283,7 @@ class OptionSet(Fetchable[opt.Options]):
         )
 
 
-@dataclass(frozen=True, unsafe_hash=True)
+@dataclass(unsafe_hash=True)
 class Options(Fetchable[opt.ProductOptions]):
     options: OptionSet
     color_themes: list[OptionColorTheme]
@@ -291,7 +291,7 @@ class Options(Fetchable[opt.ProductOptions]):
     option_exceptions: list[OptionException]
 
     @classmethod
-    def from_json(cls, obj: opt.ProductOptions) -> Options:
+    def from_json(cls, obj: dict | opt.ProductOptions) -> Options:
         return cls(
             options=OptionSet.from_json(obj.options),
             color_themes=convert_list(OptionColorTheme, obj.colorThemes),
