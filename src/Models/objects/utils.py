@@ -1,3 +1,4 @@
+import datetime
 from ast import literal_eval
 from typing import Type, TypeVar
 from src.Models.abc.Fetchable import Fetchable, Typed
@@ -20,7 +21,7 @@ def text_from_dict_str(obj: str) -> str:
 T_Fetchable = TypeVar("T_Fetchable", bound=Fetchable)
 
 
-def convert_list(type_: Type[T_Fetchable], lst: list[Typed]) -> list[T_Fetchable[Typed]]:
+def convert_list(type_: Type[T_Fetchable], lst: list[Typed]) -> list[T_Fetchable]:
     """
     Converts a list (lst) of json objects to a given type (type_)
     :param type_: type of Fetchable object to convert json
@@ -28,3 +29,12 @@ def convert_list(type_: Type[T_Fetchable], lst: list[Typed]) -> list[T_Fetchable
     :return:
     """
     return [type_.from_json(x) for x in lst]
+
+
+def from_iso(date: str) -> datetime.datetime:
+    date = date[:-len(".000Z")]  # cut off decimal data
+
+    return datetime.datetime.strptime(
+        date,
+        "%Y-%m-%dT%H:%M:%S"
+    )

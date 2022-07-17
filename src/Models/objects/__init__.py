@@ -1,8 +1,9 @@
-from InventoryObjects import *
-from OptionObjects import *
-from ProductObjects import *
-from ShortAPIObjects import *
+from src.Models.objects.InventoryObjects import *
+from src.Models.objects.OptionObjects import *
+from src.Models.objects.ProductObjects import *
+from src.Models.objects.ShortAPIObjects import *
 
 __all__ = ("OptionValue", "Options", "OptionDimensions", "OptionException", "OptionExceptionValue", "OptionSet",
            "OptionColorTheme", "ToyCartLimits", "InventoryToy", "CartLimit", "AllowCustomToys",
-           "InventoryPage", "InventoryImage", "InventoryColorTheme", "ProductAlias", "Product", "Sales")
+           "InventoryPage", "InventoryImage", "InventoryColorTheme", "ProductAlias", "Product", "Sales",
+           "InventoryToyTotal")

@@ -5,9 +5,10 @@ from dataclasses import dataclass
 
 import src.Models.typed_objects.ShortAPI as pro
 from src.Models.abc.Fetchable import Fetchable
+from src.Models.objects.utils import from_iso
 
 
-__all__ = ("ProductAlias", "CartLimit", "ToyCartLimits", "AllowCustomToys", "Sales")
+__all__ = ("ProductAlias", "CartLimit", "ToyCartLimits", "AllowCustomToys", "Sales", "InventoryToyTotal")
 
 
 @dataclass(unsafe_hash=True)
@@ -72,7 +73,7 @@ class AllowCustomToys(Fetchable[pro.AllowCustomToys]):
     def from_json(cls, obj: dict | pro.AllowCustomToys) -> AllowCustomToys:
         return cls(
             is_enabled=obj.value != "false",
-            updated=datetime.fromisoformat(obj.updated)
+            updated=from_iso(obj.updated)
         )
 
 
@@ -90,3 +91,12 @@ class Sales(Fetchable[pro.Sales]):
             target_progress=obj.salesTargetProgress,
             enabled=obj.salesTargetEnabled
         )
+
+
+@dataclass(unsafe_hash=True)
+class InventoryToyTotal(Fetchable[pro.ProductTotal]):
+    total: int
+
+    @classmethod
+    def from_json(cls, obj: dict | pro.ProductTotal) -> InventoryToyTotal:
+        return cls(total=int(obj.total))

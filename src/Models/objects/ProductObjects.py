@@ -6,6 +6,7 @@ from dataclasses import dataclass
 from src.Models.typed_objects import Product as pro
 from src.Models.abc.Fetchable import Fetchable
 from src.Models.objects.utils import text_from_dict_str
+from src.Models.objects.utils import from_iso
 
 
 __all__ = ("Product",)
@@ -40,7 +41,7 @@ class Product(Fetchable[pro.Product]):
             base_price=float(obj.basePrice),
             base_weight=float(obj.baseWeight),
             type=obj.type,
-            start_date=datetime.fromisoformat(obj.startDate),
+            start_date=from_iso(obj.startDate),
             seo_tile=obj.seoTitle,
             furry_description=text_from_dict_str(obj.furryDescription),
             title=obj.title,

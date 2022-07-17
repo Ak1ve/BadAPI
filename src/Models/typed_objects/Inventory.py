@@ -24,7 +24,7 @@ class InventoryColorTheme(Prodict):
     globalPreviewOverrideImage: None
     swatchImageId: int
     sort_order: int
-    startDate: str
+    startDate: Optional[str]
     endDate: Optional[str]
 
 
@@ -57,7 +57,7 @@ class InventoryToy(Prodict):
     is_flop: bool
     external_flop_reason: Optional[str]
     color_display: str
-    original_price: str
+    original_price: Optional[str]
     images: list[InventoryImage]
 
 

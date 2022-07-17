@@ -25,3 +25,7 @@ class AllowCustomToys(Prodict):
 class Sales(Prodict):
     salesTargetProgress: int
     salesTargetEnabled: bool
+
+
+class ProductTotal(Prodict):
+    total: str

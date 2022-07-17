@@ -7,6 +7,7 @@ from typing import Optional
 from src.Models.typed_objects import ProductOption as opt
 from src.Models.abc.Fetchable import Fetchable
 from src.Models.objects.utils import convert_list
+from src.Models.objects.utils import from_iso
 
 __all__ = ("Options", "OptionSet", "OptionValue", "OptionExceptionValue", "OptionColorTheme",
            "OptionException", "OptionDimensions")
@@ -23,7 +24,7 @@ class OptionColorTheme(Fetchable[opt.OptionColorTheme]):
     name: str
     description: str
     price_modifier: float
-    start_date: datetime
+    start_date: Optional[datetime]
 
     @classmethod
     def from_json(cls, obj: dict | opt.OptionColorTheme) -> OptionColorTheme:
@@ -32,7 +33,7 @@ class OptionColorTheme(Fetchable[opt.OptionColorTheme]):
             name=obj.name,
             description=obj.description,
             price_modifier=float(obj.priceModifier),
-            start_date=datetime.fromisoformat(obj.startDate)
+            start_date=from_iso(obj.startDate) if obj.startDate else None
         )
 
 

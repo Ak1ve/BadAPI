@@ -7,6 +7,7 @@ from typing import Optional, ClassVar
 from src.Models.typed_objects import Inventory as inv
 from src.Models.abc.Fetchable import Fetchable
 from src.Models.objects.utils import convert_list
+from src.Models.objects.utils import from_iso
 
 
 __all__ = ("InventoryImage", "InventoryToy", "InventoryPage", "InventoryColorTheme")
@@ -32,7 +33,7 @@ class InventoryImage(Fetchable[inv.InventoryImage]):
         return cls(
             id=obj.id,
             toy_id=obj.inventoryToyId,
-            created=datetime.fromisoformat(obj.created),
+            created=from_iso(obj.created),
             image_full=obj.imageUrlFull,
             image_450=obj.imageUrl450,
             image_150=obj.imageUrl150,
@@ -51,7 +52,7 @@ class InventoryColorTheme(Fetchable[inv.InventoryColorTheme]):
     name: str
     description: str
     price_modifier: float
-    start_date: datetime
+    start_date: Optional[datetime]
 
     @classmethod
     def from_json(cls, obj: dict | inv.InventoryColorTheme) -> InventoryColorTheme:
@@ -60,7 +61,7 @@ class InventoryColorTheme(Fetchable[inv.InventoryColorTheme]):
             name=obj.name,
             description=obj.description,
             price_modifier=float(obj.priceModifier),
-            start_date=datetime.fromisoformat(obj.startDate)
+            start_date=from_iso(obj.startDate) if obj.startDate else None
         )
 
 
@@ -90,7 +91,7 @@ class InventoryToy(Fetchable[inv.InventoryToy]):
     is_flop: bool
     flop_reason: Optional[str]
     color_name: str
-    original_price: float
+    original_price: Optional[float]
     images: list[InventoryImage]
 
     @classmethod
@@ -105,12 +106,12 @@ class InventoryToy(Fetchable[inv.InventoryToy]):
             has_cumtube=obj.cumtube != 18,
             has_suction_cup=obj.suction_cup == 23,
             color_theme=InventoryColorTheme.from_json(obj.colorTheme) if "colorTheme" in obj else None,
-            created=datetime.fromisoformat(obj.created),
+            created=from_iso(obj.created),
             weight=float(obj.weight),
             is_flop=obj.is_flop,
             flop_reason=obj.external_flop_reason,
             color_name=color_name,
-            original_price=float(obj.original_price),
+            original_price=float(obj.original_price) if obj.original_price is not None else None,
             images=convert_list(InventoryImage, obj.images)
         )
 
